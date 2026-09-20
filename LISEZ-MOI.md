@@ -1,5 +1,17 @@
 # LISEZ-MOI — comment produire un lot
 
+> ## ⚠️ CE DOCUMENT DÉCRIT L'ANCIEN MODÈLE (365 jours, un par jour)
+>
+> Le modèle en cours est **54 semaines = 54 magazines, 7 chapitres par
+> magazine**. Ce document reste valable pour la bibliothèque des jours — celle
+> qui existe déjà (52 matières, 25 scènes) et qui est **intacte**. Pour produire
+> les images du nouveau modèle, voir
+> [`docs/plan-des-54-semaines.md`](docs/plan-des-54-semaines.md) et
+> `npm run semaines:lot <n>`.
+>
+> La direction artistique, les interdits et la déclaration, eux, ne changent
+> pas : ils sont communs aux deux modèles.
+
 Ce dépôt est la **bibliothèque d'images de AIME MAGAZINE** : il sert de
 **serveur et de liens** au site. Le site attend des fichiers, des noms exacts,
 et une déclaration par image. Tout le reste — l'outil de génération, le

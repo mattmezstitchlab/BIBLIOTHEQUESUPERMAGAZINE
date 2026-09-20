@@ -1,56 +1,120 @@
 # BIBLIOTHÈQUE SUPER MAGAZINE
 
-La bibliothèque d'images de **AIME MAGAZINE** — le magazine de mariage qui
-couvre les 365 jours de l'année, un personnage par jour.
+La bibliothèque d'images de **AIME MAGAZINE**.
 
-Ce dépôt est **le serveur et les liens du site** : il est servi tel quel
-(liens bruts ou GitHub Pages, aucune étape intermédiaire). Le site est déjà
-prêt à le consommer — les noms de fichiers, la déclaration de chaque image et
-les cinq critères de choix sont écrits dans son code, et résumés ici.
-
-> **Ce qui est documenté est cité ; ce qui est imaginé est signé.** Les deux
-> ne se mélangent jamais. C'est la règle de la collection comme celle du
-> magazine.
+> ## ⚠️ CHANGEMENT D'ARCHITECTURE ÉDITORIALE
+>
+> **L'ancien modèle — 365 jours = 365 magazines — est abandonné.**
+>
+> **Le nouveau modèle : 54 SEMAINES = 54 MAGAZINES.**
+> Chaque magazine hebdomadaire contient **7 CHAPITRES = 7 UNIVERS DU MARIAGE**.
+> Une année. 54 magazines. 7 univers par magazine. 365 jours pour les explorer.
+>
+> La bibliothèque à produire : **54 couvertures + 378 images de chapitres = 432 images.**
+> Les 365 dates ne deviennent **pas** 365 images : le site fera le mapping
+> `DATE → SEMAINE → CHAPITRE`.
+>
+> **Ce qui existait sous l'ancien modèle est intact** — rien n'a été détruit,
+> renommé ni déplacé. Voir [`docs/remappage-anciens-assets.md`](docs/remappage-anciens-assets.md)
+> pour l'inventaire et les options de remappage, qui attendent validation.
 
 ---
 
-## L'état du chantier
+## Le nouveau modèle, en une image
+
+```
+images/
+  semaine-01/
+    cover.jpg          la couverture — la porte d'entrée du magazine
+    01-amoureux.jpg    les sept chapitres — les sept mêmes univers
+    02-style.jpg       chaque semaine, traités autrement
+    03-lieux.jpg
+    04-recevoir.jpg
+    05-fete.jpg
+    06-monde.jpg
+    07-souvenirs.jpg
+  …
+  semaine-54/
+```
+
+- **54 couvertures** + **378 images de chapitres** = **432 images**.
+- La couverture annonce l'univers de la semaine. **Pas de mariés par défaut** :
+  le mariage se suggère par son univers culturel, esthétique, humain ou
+  émotionnel — une robe, une table, une ville, une chanson, une famille, un
+  voyage, un objet transmis, une architecture.
+- Les sept images d'une semaine **se répondent** : palette, lumière, saison,
+  texture, territoire, ambiance partagés. Chaque chapitre reste identifiable.
+
+**Le plan complet, semaine par semaine** (dates, saison, titre, style, palette,
+idée de couverture, fil, huit fichiers attendus) est engendré automatiquement :
+
+```
+npm run plan     →  docs/plan-des-54-semaines.md
+```
+
+Il ne s'écrit pas à la main : il vient de [`scripts/semaines.mjs`](scripts/semaines.mjs).
+Une semaine change là-bas, le plan suit.
+
+---
+
+## L'état des deux bibliothèques
+
+### La bibliothèque des 54 semaines (le modèle en cours)
 
 | | |
 | --- | --- |
-| **Fiches** | **16 documentées** (prompt maître + cinq scènes écrits) · **330 amorcées** (le sens du prénom, souvent le métier par la tradition : une porte déjà ouverte) · **19 fêtes** (un texte, pas une biographie) — sur 365 |
-| **Fonds de couverture** | **0 / 365 livrés** — les 365 attendent, et ils n'attendent personne |
-| **Scènes** | **0 / 1 825 livrées** — 80 scènes ont leur brief (les 16 fiches documentées × 5 moments) |
-| **Manifeste** | 0 déclaration — `manifeste.json` est prêt à être rempli |
-
-L'état en direct, tout le temps :
+| **Structure** | 54 dossiers `semaine-NN/` créés, prêts à recevoir leurs 8 images |
+| **Manifeste** | `manifeste-semaines.json` — le schéma des 13 champs est en place, 0 déclaration |
+| **Images livrées** | **0 / 432** |
+| **Décisions en attente** | le remappage des anciens assets (voir le rapport) |
 
 ```
-npm run etat
+npm run semaines:etat          où en est la bibliothèque, quel est le prochain lot
+npm run semaines:lot 7         ce que demande la semaine 07, les huit fichiers
+npm run semaines:verifier      le manifeste tient-il ? (sortie 0/1)
 ```
 
-Deux chantiers se tiennent, dans cet ordre :
+### La bibliothèque des jours (l'ancien modèle — intacte, en réserve)
 
-1. **Documenter les jours** — 349 journées à documenter, par lots de 10 jours,
-   avec les règles et la structure exacte dans
-   [`docs/prompt-journees-pour-chatgpt.md`](docs/prompt-journees-pour-chatgpt.md).
-   Chaque jour documenté débloque 5 scènes.
-2. **Produire les images** — les 365 fonds d'abord (ils n'attendent personne),
-   puis les scènes par journées documentées, par lots de 16 journées
-   (16 personnages × 5 scènes = 80 images, l'aube d'abord). La méthode
-   complète est dans [`LISEZ-MOI.md`](LISEZ-MOI.md).
+| | |
+| --- | --- |
+| **Fonds de couverture** | **52 / 365 livrés** — les « matières du jour », produites pour janvier et février |
+| **Scènes** | **25 / 1 825 livrées** — 5 journées complètes, l'aube servant de référence |
+| **Manifeste** | `manifeste.json` — 77 déclarations, vérificateur sortie 0 |
+
+Ses outils continuent de fonctionner tels quels (`npm run etat`, `lot:fonds`,
+`lot:scenes`, `relever`, `verifier`). **Fusionner ou supprimer cette
+bibliothèque est une décision, pas une conséquence** — elle attend la réponse
+aux trois questions du rapport de remappage.
+
+---
 
 ## La carte du dépôt
 
 ```
-images/                  365 dossiers MM-JJ — un par jour de l'année (existant)
-manifeste.json           la déclaration de chaque image : fichier, moment,
-                         lumière, couleur, dimensions, contenu, note
+images/semaine-01…54/    54 dossiers — LE MODÈLE EN COURS : cover.jpg + les sept
+                         chapitres (01-amoureux … 07-souvenirs), 8 images chacun
+manifeste-semaines.json  la déclaration des 432 images attendues : semaine,
+                         chapitre, titre, univers, saison, style, sujet,
+                         dominante_color, description, mots_cles (+ fichier,
+                         largeur, hauteur)
+images/MM-JJ/            365 dossiers — L'ANCIEN MODÈLE, intact : les matières
+                         du jour et les scènes, 77 images
+manifeste.json           la déclaration des images de l'ancien modèle
 LISEZ-MOI.md             comment produire un lot : le personnage, sa fiche,
                          les cinq moments, la déclaration à remplir
 scripts/                 les outils du chantier
-  bibliotheque.mjs       lecture commune : le disque, le manifeste, les documents
-  lots.mjs               le plan de production : etat | fonds [n] | scenes [n]
+  bibliotheque.mjs       lecture commune de l'ancien modèle (le disque, le manifeste)
+  semaines.mjs           LA SOURCE DU NOUVEAU MODÈLE : les 54 semaines, leurs
+                         titres, styles, palettes, couvertures et fils ; les sept
+                         chapitres ; le découpage de l'année et les saisons
+  plan-semaines.mjs      engendre docs/plan-des-54-semaines.md (npm run plan)
+  lots-semaines.mjs      les lots du nouveau modèle : etat | semaine NN | prochaine
+  verifier-semaines.mjs  le juge des semaines : semaine, chapitre, titre, saison,
+                         couleur, cadrage, fichiers (npm run semaines:verifier)
+  remapper.mjs           l'inventaire des anciens assets et les options de
+                         remappage — lecture seule, ne déplace rien (npm run remapper)
+  lots.mjs               le plan de production de l'ancien modèle : etat | fonds | scenes
   relever-images.mjs     ce qui est réellement arrivé, compté (npm run relever)
   verifier-manifeste.mjs le juge : les cinq champs, les liens, l'ordre (npm run verifier)
   faire-prompts.ts       régénère les trois documents de docs/ (npm run prompts)
@@ -69,6 +133,10 @@ docs/                    les documents du chantier
   casting-des-couvertures.md  ENGENDRÉ — la liste de ce qui est attendu : les
                           365 fonds (titre, couleur, fichier), les 1 825 scènes
                           (personnage, moment, état, fichier)
+  plan-des-54-semaines.md     ENGENDRÉ — les 54 magazines : dates, saison, titre,
+                          style, palette, idée de couverture, fil, huit fichiers
+  remappage-anciens-assets.md ENGENDRÉ — ce qui existe sous l'ancien modèle, et
+                          les trois options de remappage, en attente de validation
 src/lib/                 les modules de données, mot pour mot ceux du site
   profilsEditoriaux.ts   les 16 fiches documentées (PROFILS) — ici qu'une
                          journée documentée rentre
@@ -91,6 +159,19 @@ src/lib/                 les modules de données, mot pour mot ceux du site
 ```
 
 ## Le contrat avec le site
+
+### Le modèle en cours — les 54 semaines
+
+| Le site attend | Ce dépôt sert |
+| --- | --- |
+| `images/semaine-NN/` — un dossier par semaine | les 54 dossiers existent |
+| `cover.jpg`, `01-amoureux.jpg`, `02-style.jpg`, `03-lieux.jpg`, `04-recevoir.jpg`, `05-fete.jpg`, `06-monde.jpg`, `07-souvenirs.jpg` — noms exacts | les noms sont fixés dans `scripts/semaines.mjs`, une seule source |
+| `manifeste-semaines.json` — semaine, chapitre, titre, univers, saison, style, sujet, dominante_color, description, mots_cles | le schéma est en place, vérifié par `npm run semaines:verifier` |
+| le mapping `DATE → SEMAINE → CHAPITRE` | la règle est écrite : `semaineDuJour()` dans `scripts/semaines.mjs` |
+| 5 / 7 portrait, 1000 × 1400 | le format imposé par la vérification |
+| les liens bruts / GitHub Pages | le dépôt servi tel quel |
+
+### L'ancien modèle — les jours (toujours servi)
 
 | Le site attend | Ce dépôt sert |
 | --- | --- |
@@ -128,7 +209,17 @@ n'a pas d'image** — c'est la queue de la veille, une règle, pas un manque.
 7. **Le même personnage cinq fois** : même visage, même silhouette, même
    garde-robe — seule la lumière change. L'aube est la référence.
 
-## Les outils
+## Les outils — la bibliothèque des semaines
+
+```
+npm run plan              engendre le plan des 54 semaines
+npm run semaines:etat     l'état : semaines complètes, prochain lot
+npm run semaines:lot 7    ce que demande une semaine, ses huit fichiers
+npm run semaines:verifier le manifeste tient-il ? (sortie 0/1)
+npm run remapper          l'inventaire et les options de remappage (lecture seule)
+```
+
+## Les outils — la bibliothèque des jours (ancien modèle, toujours fonctionnels)
 
 ```
 npm run etat       le tableau de bord : fiches, fonds, scènes, manifeste,

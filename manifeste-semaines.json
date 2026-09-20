@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "magazine": "AIME MAGAZINE — la bibliothèque des 54 semaines",
+    "modele": "54 SEMAINES = 54 MAGAZINES · 7 CHAPITRES = 7 UNIVERS DU MARIAGE · 365 JOURS POUR LES EXPLORER",
+    "regle": "Une image sans sa déclaration ne sert à rien : la déclaration fait partie de l'image. Le mariage est le territoire commun — il peut apparaître directement ou indirectement, jamais dans son imagerie conventionnelle.",
+    "format": {
+      "ratio": "5:7",
+      "largeur": 1000,
+      "hauteur": 1400
+    },
+    "chapitres": [
+      { "ordre": 1, "slug": "01-amoureux", "nom": "Les amoureux", "fichier": "01-amoureux.jpg", "univers": "Couple, rencontre, engagement, famille, émotions, relation humaine" },
+      { "ordre": 2, "slug": "02-style", "nom": "Le style", "fichier": "02-style.jpg", "univers": "Robe, costume, beauté, coiffure, bijoux, accessoires, fleurs, mode" },
+      { "ordre": 3, "slug": "03-lieux", "nom": "Les lieux", "fichier": "03-lieux.jpg", "univers": "Châteaux, maisons, hôtels, villes, campagnes, plages, architectures, destinations" },
+      { "ordre": 4, "slug": "04-recevoir", "nom": "L’art de recevoir", "fichier": "04-recevoir.jpg", "univers": "Tables, gastronomie, pâtisserie, fleurs, décoration, objets, art de la table" },
+      { "ordre": 5, "slug": "05-fete", "nom": "La fête", "fichier": "05-fete.jpg", "univers": "Musique, danse, DJ, concerts, lumière, scène, cocktails, fête, nuit" },
+      { "ordre": 6, "slug": "06-monde", "nom": "Le monde", "fichier": "06-monde.jpg", "univers": "Cultures, traditions, voyages, patrimoine, peuples, cérémonies, mariages internationaux" },
+      { "ordre": 7, "slug": "07-souvenirs", "nom": "Les souvenirs", "fichier": "07-souvenirs.jpg", "univers": "Photographie, vidéo, albums, lettres, objets, archives, transmission, mémoire" }
+    ],
+    "saisons": ["hiver", "printemps", "ete", "automne"],
+    "convention": "images/semaine-NN/{cover,01-amoureux,02-style,03-lieux,04-recevoir,05-fete,06-monde,07-souvenirs}.jpg — huit images par semaine, 54 semaines, 432 images. La couverture n'est pas un chapitre : c'est la porte d'entrée du magazine.",
+    "mapping": "DATE → SEMAINE → CHAPITRE. Le découpage est proportionnel et régulier : la semaine n couvre les jours ⌊(n−1)×365/54⌋+1 à ⌊n×365/54⌋ de l'année. Le site reste maître du calendrier ; cette règle est écrite pour que la bibliothèque sache à quelle saison appartient une semaine.",
+    "declaration": {
+      "semaine": "1 à 54",
+      "chapitre": "cover | 01-amoureux | 02-style | 03-lieux | 04-recevoir | 05-fete | 06-monde | 07-souvenirs",
+      "titre": "le titre du magazine de la semaine (le même pour ses huit images)",
+      "univers": "l'univers du chapitre, ou « la couverture »",
+      "fichier": "le chemin réel, dans ce dépôt",
+      "saison": "hiver | printemps | ete | automne",
+      "style": "le style dominant de la semaine",
+      "sujet": "ce qu'on voit, en quelques mots",
+      "dominante_color": "la dominante, en #RRGGBB",
+      "description": "une phrase : ce que l'image montre, et pourquoi elle est là",
+      "mots_cles": "trois à six mots-clés, pour la recherche",
+      "largeur": "la largeur réelle du fichier",
+      "hauteur": "la hauteur réelle du fichier — le ratio attendu est 5:7"
+    }
+  },
+  "images": []
+}

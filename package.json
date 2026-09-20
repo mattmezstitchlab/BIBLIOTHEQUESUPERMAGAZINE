@@ -15,7 +15,12 @@
     "relever": "node scripts/relever-images.mjs",
     "verifier": "node scripts/verifier-manifeste.mjs",
     "normaliser": "node scripts/normaliser-images.mjs",
-    "declarer": "node scripts/declarer-image.mjs"
+    "declarer": "node scripts/declarer-image.mjs",
+    "plan": "node scripts/plan-semaines.mjs",
+    "semaines:etat": "node scripts/lots-semaines.mjs etat",
+    "semaines:lot": "node scripts/lots-semaines.mjs semaine",
+    "semaines:verifier": "node scripts/verifier-semaines.mjs",
+    "remapper": "node scripts/remapper.mjs"
   },
   "devDependencies": {
     "esbuild": "^0.25.0"

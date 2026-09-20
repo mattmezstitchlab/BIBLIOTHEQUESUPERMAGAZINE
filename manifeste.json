@@ -414,6 +414,151 @@
         "matière du jour"
       ],
       "note": "le fond du 28 janvier — premier rang"
+    },
+    {
+      "fichier": "images/01-29/couverture.jpg",
+      "moment": "couverture",
+      "lumiere": "froide et rasante, elle longe la paroi et s'éteint",
+      "couleur": "#16233F",
+      "largeur": 1000,
+      "hauteur": 1400,
+      "contient": [
+        "enduit mouillé",
+        "coulures verticales",
+        "matière du jour"
+      ],
+      "note": "le fond du 29 janvier — premier rang"
+    },
+    {
+      "fichier": "images/01-30/couverture.jpg",
+      "moment": "couverture",
+      "lumiere": "rasante de gauche, chaque brin révélé",
+      "couleur": "#16233F",
+      "largeur": 1000,
+      "hauteur": 1400,
+      "contient": [
+        "paille tressée",
+        "brins serrés",
+        "matière du jour"
+      ],
+      "note": "le fond du 30 janvier — premier rang"
+    },
+    {
+      "fichier": "images/01-31/couverture.jpg",
+      "moment": "couverture",
+      "lumiere": "une arête froide qui suit le pli principal",
+      "couleur": "#16233F",
+      "largeur": 1000,
+      "hauteur": 1400,
+      "contient": [
+        "papier de soie pressé",
+        "arêtes vives",
+        "matière du jour"
+      ],
+      "note": "le fond du 31 janvier — premier rang"
+    },
+    {
+      "fichier": "images/02-01/couverture.jpg",
+      "moment": "couverture",
+      "lumiere": "froide, venue de derrière le verre, dissoute dans l'opacité",
+      "couleur": "#0B0B0F",
+      "largeur": 1000,
+      "hauteur": 1400,
+      "contient": [
+        "verre dépoli",
+        "buée qui se retire par plaques",
+        "matière du jour"
+      ],
+      "note": "le fond du 1er février — premier rang"
+    },
+    {
+      "fichier": "images/02-02/couverture.jpg",
+      "moment": "couverture",
+      "lumiere": "rétro-éclairée derrière le tissu, les plis filtrent",
+      "couleur": "#16233F",
+      "largeur": 1000,
+      "hauteur": 1400,
+      "contient": [
+        "lin épais",
+        "longs plis verticaux",
+        "matière du jour"
+      ],
+      "note": "le fond du 2 février — premier rang"
+    },
+    {
+      "fichier": "images/02-14/apres-midi.jpg",
+      "moment": "apres-midi",
+      "lumiere": "qui penche, un côté chaud un côté froid, un rai qui traverse",
+      "couleur": "#0D1526",
+      "largeur": 1000,
+      "hauteur": 1400,
+      "contient": [
+        "valentin",
+        "trois-quarts",
+        "table de travail",
+        "papiers et tissu"
+      ],
+      "note": "l'après-midi — le pont, l'image qui mène au mariage"
+    },
+    {
+      "fichier": "images/02-14/aube.jpg",
+      "moment": "aube",
+      "lumiere": "froide et rasante, le bleu d'avant le jour, une longue ombre",
+      "couleur": "#0D1526",
+      "largeur": 1000,
+      "hauteur": 1400,
+      "contient": [
+        "valentin",
+        "portrait",
+        "lieu vide en désordre",
+        "chaises empilées"
+      ],
+      "note": "l'aube — l'image de référence du jour, les quatre autres sont tenues sur elle"
+    },
+    {
+      "fichier": "images/02-14/matin.jpg",
+      "moment": "matin",
+      "lumiere": "claire et franche, deux sources, des blancs tenus",
+      "couleur": "#0D1526",
+      "largeur": 1000,
+      "hauteur": 1400,
+      "contient": [
+        "valentin",
+        "architecture contemporaine",
+        "béton et verre",
+        "plan de travail"
+      ],
+      "note": "le matin — la mise en place, le savoir-faire se voit"
+    },
+    {
+      "fichier": "images/02-14/midi.jpg",
+      "moment": "midi",
+      "lumiere": "de studio, dure et graphique, une ombre nette au sol",
+      "couleur": "#0D1526",
+      "largeur": 1000,
+      "hauteur": 1400,
+      "contient": [
+        "valentin",
+        "portrait",
+        "fond plein",
+        "la pièce maîtresse"
+      ],
+      "note": "le midi — le portrait, l'image où il est le plus lui-même"
+    },
+    {
+      "fichier": "images/02-14/soir.jpg",
+      "moment": "soir",
+      "lumiere": "golden hour puis nuit, une source chaude, un fond qui s'éteint",
+      "couleur": "#0D1526",
+      "largeur": 1000,
+      "hauteur": 1400,
+      "contient": [
+        "valentin",
+        "table dressée",
+        "bougies dans des verres",
+        "extérieur bleu"
+      ],
+      "note": "le soir — la célébration intime, les convives sont hors champ"
     }
   ]
 }

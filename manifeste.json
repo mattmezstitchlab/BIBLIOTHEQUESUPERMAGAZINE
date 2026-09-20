@@ -246,6 +246,34 @@
         "ondulation"
       ],
       "note": "le fond du 16 janvier — premier rang"
+    },
+    {
+      "fichier": "images/01-17/couverture.jpg",
+      "moment": "couverture",
+      "lumiere": "froide derrière la vitre, chaque goutte piquée de clair",
+      "couleur": "#16233F",
+      "largeur": 1000,
+      "hauteur": 1400,
+      "contient": [
+        "matière du jour",
+        "pluie fine sur verre",
+        "ruissellements"
+      ],
+      "note": "le fond du 17 janvier — premier rang"
+    },
+    {
+      "fichier": "images/01-18/couverture.jpg",
+      "moment": "couverture",
+      "lumiere": "extrêmement rasante, venue du bord, ombre dominante",
+      "couleur": "#0B0B0F",
+      "largeur": 1000,
+      "hauteur": 1400,
+      "contient": [
+        "matière du jour",
+        "mur noir faïencé",
+        "craquelures"
+      ],
+      "note": "le fond du 18 janvier — premier rang"
     }
   ]
 }

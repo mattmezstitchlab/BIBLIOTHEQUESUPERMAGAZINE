@@ -1,0 +1,28 @@
+{
+  "name": "bibliotheque-supermagazine",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "La bibliothèque d'images de AIME MAGAZINE — les 365 fonds, les 1 825 scènes, les fiches, le manifeste. Servie telle quelle : les liens bruts sont les URLs du site.",
+  "engines": {
+    "node": "22.x"
+  },
+  "scripts": {
+    "prompts": "esbuild scripts/faire-prompts.ts --bundle --platform=node --format=cjs --outfile=node_modules/.cache/prompts.cjs --log-level=error && node node_modules/.cache/prompts.cjs",
+    "etat": "node scripts/lots.mjs etat",
+    "lot:fonds": "node scripts/lots.mjs fonds",
+    "lot:scenes": "node scripts/lots.mjs scenes",
+    "relever": "node scripts/relever-images.mjs",
+    "verifier": "node scripts/verifier-manifeste.mjs",
+    "normaliser": "node scripts/normaliser-images.mjs",
+    "declarer": "node scripts/declarer-image.mjs",
+    "plan": "node scripts/plan-semaines.mjs",
+    "semaines:etat": "node scripts/lots-semaines.mjs etat",
+    "semaines:lot": "node scripts/lots-semaines.mjs semaine",
+    "semaines:verifier": "node scripts/verifier-semaines.mjs",
+    "remapper": "node scripts/remapper.mjs"
+  },
+  "devDependencies": {
+    "esbuild": "^0.25.0"
+  }
+}

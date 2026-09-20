@@ -1,0 +1,1152 @@
+{
+  "meta": {
+    "magazine": "AIME MAGAZINE — la bibliothèque des visuels",
+    "regle": "Ce qui est documenté est cité ; ce qui est imaginé est signé. Une image sans ses cinq champs ne sert à rien : la déclaration fait partie de l'image.",
+    "format": {
+      "ratio": "5:7",
+      "largeur": 1000,
+      "hauteur": 1400
+    },
+    "moments": [
+      "couverture",
+      "aube",
+      "matin",
+      "midi",
+      "apres-midi",
+      "soir"
+    ],
+    "convention": "images/MM-JJ/slot.jpg — le premier rang est celui qu'on veut ; -2 et -3 sont des candidates du casting (trois rangs au plus par plan). La nuit n'a pas d'image : c'est la queue de la veille.",
+    "criteres": {
+      "le moment": 3,
+      "la lumière": 2,
+      "la couleur": 2,
+      "le cadrage": 1,
+      "le sujet": 1
+    }
+  },
+  "images": [
+    {
+      "fichier": "images/01-01/couverture.jpg",
+      "moment": "couverture",
+      "lumiere": "froide, rasante, le bleu d'avant le jour",
+      "couleur": "#16233F",
+      "largeur": 1000,
+      "hauteur": 1400,
+      "contient": [
+        "matière du jour",
+        "givre",
+        "nuit d'hiver"
+      ],
+      "note": "le fond du 1er janvier — premier rang"
+    },
+    {
+      "fichier": "images/01-02/couverture.jpg",
+      "moment": "couverture",
+      "lumiere": "rasante, très douce, une seule arête",
+      "couleur": "#16233F",
+      "largeur": 1000,
+      "hauteur": 1400,
+      "contient": [
+        "matière du jour",
+        "laine feutrée",
+        "plis lourds"
+      ],
+      "note": "le fond du 2 janvier — premier rang"
+    },
+    {
+      "fichier": "images/01-03/couverture.jpg",
+      "moment": "couverture",
+      "lumiere": "froide, diffuse, brume basse",
+      "couleur": "#16233F",
+      "largeur": 1000,
+      "hauteur": 1400,
+      "contient": [
+        "matière du jour",
+        "pierre mouillée"
+      ],
+      "note": "le fond du 3 janvier — premier rang"
+    },
+    {
+      "fichier": "images/01-04/couverture.jpg",
+      "moment": "couverture",
+      "lumiere": "une seule bande très faible, le reste dans l'ombre",
+      "couleur": "#0B0B0F",
+      "largeur": 1000,
+      "hauteur": 1400,
+      "contient": [
+        "matière du jour",
+        "velours noir",
+        "plis profonds"
+      ],
+      "note": "le fond du 4 janvier — premier rang"
+    },
+    {
+      "fichier": "images/01-05/couverture.jpg",
+      "moment": "couverture",
+      "lumiere": "rasante, une arête, douce",
+      "couleur": "#16233F",
+      "largeur": 1000,
+      "hauteur": 1400,
+      "contient": [
+        "matière du jour",
+        "lin froissé",
+        "plis longs"
+      ],
+      "note": "le fond du 5 janvier — premier rang"
+    },
+    {
+      "fichier": "images/01-06/couverture.jpg",
+      "moment": "couverture",
+      "lumiere": "une source décidée, transparence sombre",
+      "couleur": "#16233F",
+      "largeur": 1000,
+      "hauteur": 1400,
+      "contient": [
+        "matière du jour",
+        "encre dans l'eau",
+        "volutes"
+      ],
+      "note": "le fond du 6 janvier — premier rang"
+    },
+    {
+      "fichier": "images/01-07/couverture.jpg",
+      "moment": "couverture",
+      "lumiere": "bande faible, le reste dans un noir dense",
+      "couleur": "#16233F",
+      "largeur": 1000,
+      "hauteur": 1400,
+      "contient": [
+        "matière du jour",
+        "cuir grainé",
+        "pénombre"
+      ],
+      "note": "le fond du 7 janvier — premier rang"
+    },
+    {
+      "fichier": "images/01-08/couverture.jpg",
+      "moment": "couverture",
+      "lumiere": "faisceau froid dirigé, voiles gris-bleu",
+      "couleur": "#16233F",
+      "largeur": 1000,
+      "hauteur": 1400,
+      "contient": [
+        "matière du jour",
+        "fumée fine",
+        "fond vide"
+      ],
+      "note": "le fond du 8 janvier — premier rang"
+    },
+    {
+      "fichier": "images/01-09/couverture.jpg",
+      "moment": "couverture",
+      "lumiere": "une réflexion franche sur l'eau, la moitié du cadre calme",
+      "couleur": "#16233F",
+      "largeur": 1000,
+      "hauteur": 1400,
+      "contient": [
+        "matière du jour",
+        "eau noire",
+        "ondes concentriques"
+      ],
+      "note": "le fond du 9 janvier — refait, plus de présence"
+    },
+    {
+      "fichier": "images/01-10/couverture.jpg",
+      "moment": "couverture",
+      "lumiere": "diagonale de lumière froide, coupe nette",
+      "couleur": "#16233F",
+      "largeur": 1000,
+      "hauteur": 1400,
+      "contient": [
+        "matière du jour",
+        "béton brut coulé",
+        "aspérités"
+      ],
+      "note": "le fond du 10 janvier — refait, la texture se lit"
+    },
+    {
+      "fichier": "images/01-11/couverture.jpg",
+      "moment": "couverture",
+      "lumiere": "arête froide en diagonale, le reste noir",
+      "couleur": "#0B0B0F",
+      "largeur": 1000,
+      "hauteur": 1400,
+      "contient": [
+        "matière du jour",
+        "daim noir",
+        "grain velouté"
+      ],
+      "note": "le fond du 11 janvier — premier rang"
+    },
+    {
+      "fichier": "images/01-12/couverture.jpg",
+      "moment": "couverture",
+      "lumiere": "lumière de gauche, deux courbes dessinées",
+      "couleur": "#16233F",
+      "largeur": 1000,
+      "hauteur": 1400,
+      "contient": [
+        "matière du jour",
+        "huile sur eau nocturne"
+      ],
+      "note": "le fond du 12 janvier — premier rang"
+    },
+    {
+      "fichier": "images/01-13/couverture.jpg",
+      "moment": "couverture",
+      "lumiere": "froide et rasante sur la pierre polie",
+      "couleur": "#16233F",
+      "largeur": 1000,
+      "hauteur": 1400,
+      "contient": [
+        "matière du jour",
+        "marbre noir",
+        "veines claires"
+      ],
+      "note": "le fond du 13 janvier — premier rang"
+    },
+    {
+      "fichier": "images/01-14/couverture.jpg",
+      "moment": "couverture",
+      "lumiere": "froide, très diffuse, venue de la droite",
+      "couleur": "#16233F",
+      "largeur": 1000,
+      "hauteur": 1400,
+      "contient": [
+        "matière du jour",
+        "chaux bleu nuit",
+        "texture poudreuse"
+      ],
+      "note": "le fond du 14 janvier — premier rang"
+    },
+    {
+      "fichier": "images/01-15/couverture.jpg",
+      "moment": "couverture",
+      "lumiere": "rasante de gauche, chaque pli lu",
+      "couleur": "#16233F",
+      "largeur": 1000,
+      "hauteur": 1400,
+      "contient": [
+        "matière du jour",
+        "soie sauvage",
+        "plis verticaux"
+      ],
+      "note": "le fond du 15 janvier — premier rang"
+    },
+    {
+      "fichier": "images/01-16/couverture.jpg",
+      "moment": "couverture",
+      "lumiere": "rasante de droite sur le relief du grain",
+      "couleur": "#16233F",
+      "largeur": 1000,
+      "hauteur": 1400,
+      "contient": [
+        "matière du jour",
+        "sable mouillé",
+        "ondulation"
+      ],
+      "note": "le fond du 16 janvier — premier rang"
+    },
+    {
+      "fichier": "images/01-17/couverture.jpg",
+      "moment": "couverture",
+      "lumiere": "froide derrière la vitre, chaque goutte piquée de clair",
+      "couleur": "#16233F",
+      "largeur": 1000,
+      "hauteur": 1400,
+      "contient": [
+        "matière du jour",
+        "pluie fine sur verre",
+        "ruissellements"
+      ],
+      "note": "le fond du 17 janvier — premier rang"
+    },
+    {
+      "fichier": "images/01-18/couverture.jpg",
+      "moment": "couverture",
+      "lumiere": "extrêmement rasante, venue du bord, ombre dominante",
+      "couleur": "#0B0B0F",
+      "largeur": 1000,
+      "hauteur": 1400,
+      "contient": [
+        "matière du jour",
+        "mur noir faïencé",
+        "craquelures"
+      ],
+      "note": "le fond du 18 janvier — premier rang"
+    },
+    {
+      "fichier": "images/01-19/couverture.jpg",
+      "moment": "couverture",
+      "lumiere": "rasante sur l'ardoise mouillée, le grain nuancé lu",
+      "couleur": "#16233F",
+      "largeur": 1000,
+      "hauteur": 1400,
+      "contient": [
+        "ardoise mouillée",
+        "plaques superposées",
+        "matière du jour"
+      ],
+      "note": "le fond du 19 janvier — premier rang"
+    },
+    {
+      "fichier": "images/01-20/couverture.jpg",
+      "moment": "couverture",
+      "lumiere": "une arête dure, l'éclat métallique révélé",
+      "couleur": "#16233F",
+      "largeur": 1000,
+      "hauteur": 1400,
+      "contient": [
+        "graphite étalé",
+        "poussière minérale",
+        "matière du jour"
+      ],
+      "note": "le fond du 20 janvier — premier rang"
+    },
+    {
+      "fichier": "images/01-21/couverture.jpg",
+      "moment": "couverture",
+      "lumiere": "rétro-éclairée, translucide, une profondeur bleutée",
+      "couleur": "#16233F",
+      "largeur": 1000,
+      "hauteur": 1400,
+      "contient": [
+        "albâtre",
+        "veines laiteuses",
+        "matière du jour"
+      ],
+      "note": "le fond du 21 janvier — premier rang"
+    },
+    {
+      "fichier": "images/01-22/couverture.jpg",
+      "moment": "couverture",
+      "lumiere": "rasante de côté, les fibres carbonisées prises une à une",
+      "couleur": "#16233F",
+      "largeur": 1000,
+      "hauteur": 1400,
+      "contient": [
+        "bois calciné",
+        "surface noire",
+        "matière du jour"
+      ],
+      "note": "le fond du 22 janvier — premier rang"
+    },
+    {
+      "fichier": "images/01-23/couverture.jpg",
+      "moment": "couverture",
+      "lumiere": "dure sur le bitume mouillé, deux reflets larges",
+      "couleur": "#16233F",
+      "largeur": 1000,
+      "hauteur": 1400,
+      "contient": [
+        "bitume",
+        "granulats serrés",
+        "matière du jour"
+      ],
+      "note": "le fond du 23 janvier — premier rang"
+    },
+    {
+      "fichier": "images/01-24/couverture.jpg",
+      "moment": "couverture",
+      "lumiere": "froide sur la patine mate, une longue arête en diagonale",
+      "couleur": "#16233F",
+      "largeur": 1000,
+      "hauteur": 1400,
+      "contient": [
+        "métal fondu refroidi",
+        "patine oxydée",
+        "matière du jour"
+      ],
+      "note": "le fond du 24 janvier — premier rang"
+    },
+    {
+      "fichier": "images/01-25/couverture.jpg",
+      "moment": "couverture",
+      "lumiere": "une seule arête vive, le reste dans un noir absolu",
+      "couleur": "#0B0B0F",
+      "largeur": 1000,
+      "hauteur": 1400,
+      "contient": [
+        "obsidienne",
+        "arêtes coupantes",
+        "matière du jour"
+      ],
+      "note": "le fond du 25 janvier — premier rang"
+    },
+    {
+      "fichier": "images/01-26/couverture.jpg",
+      "moment": "couverture",
+      "lumiere": "réflexion large et douce sur l'émail bombé",
+      "couleur": "#16233F",
+      "largeur": 1000,
+      "hauteur": 1400,
+      "contient": [
+        "céramique émaillée",
+        "craquelures fines",
+        "matière du jour"
+      ],
+      "note": "le fond du 26 janvier — premier rang"
+    },
+    {
+      "fichier": "images/01-27/couverture.jpg",
+      "moment": "couverture",
+      "lumiere": "rétro-éclairé par le fond, halo profond et contenu",
+      "couleur": "#16233F",
+      "largeur": 1000,
+      "hauteur": 1400,
+      "contient": [
+        "verre soufflé",
+        "bulles retenues dans la masse",
+        "matière du jour"
+      ],
+      "note": "le fond du 27 janvier — premier rang"
+    },
+    {
+      "fichier": "images/01-28/couverture.jpg",
+      "moment": "couverture",
+      "lumiere": "rasante en diagonale, le relief lu rangée après rangée",
+      "couleur": "#16233F",
+      "largeur": 1000,
+      "hauteur": 1400,
+      "contient": [
+        "brique peinte",
+        "joints apparents",
+        "matière du jour"
+      ],
+      "note": "le fond du 28 janvier — premier rang"
+    },
+    {
+      "fichier": "images/01-29/couverture.jpg",
+      "moment": "couverture",
+      "lumiere": "froide et rasante, elle longe la paroi et s'éteint",
+      "couleur": "#16233F",
+      "largeur": 1000,
+      "hauteur": 1400,
+      "contient": [
+        "enduit mouillé",
+        "coulures verticales",
+        "matière du jour"
+      ],
+      "note": "le fond du 29 janvier — premier rang"
+    },
+    {
+      "fichier": "images/01-30/couverture.jpg",
+      "moment": "couverture",
+      "lumiere": "rasante de gauche, chaque brin révélé",
+      "couleur": "#16233F",
+      "largeur": 1000,
+      "hauteur": 1400,
+      "contient": [
+        "paille tressée",
+        "brins serrés",
+        "matière du jour"
+      ],
+      "note": "le fond du 30 janvier — premier rang"
+    },
+    {
+      "fichier": "images/01-31/couverture.jpg",
+      "moment": "couverture",
+      "lumiere": "une arête froide qui suit le pli principal",
+      "couleur": "#16233F",
+      "largeur": 1000,
+      "hauteur": 1400,
+      "contient": [
+        "papier de soie pressé",
+        "arêtes vives",
+        "matière du jour"
+      ],
+      "note": "le fond du 31 janvier — premier rang"
+    },
+    {
+      "fichier": "images/02-01/couverture.jpg",
+      "moment": "couverture",
+      "lumiere": "froide, venue de derrière le verre, dissoute dans l'opacité",
+      "couleur": "#0B0B0F",
+      "largeur": 1000,
+      "hauteur": 1400,
+      "contient": [
+        "verre dépoli",
+        "buée qui se retire par plaques",
+        "matière du jour"
+      ],
+      "note": "le fond du 1er février — premier rang"
+    },
+    {
+      "fichier": "images/02-02/couverture.jpg",
+      "moment": "couverture",
+      "lumiere": "rétro-éclairée derrière le tissu, les plis filtrent",
+      "couleur": "#16233F",
+      "largeur": 1000,
+      "hauteur": 1400,
+      "contient": [
+        "lin épais",
+        "longs plis verticaux",
+        "matière du jour"
+      ],
+      "note": "le fond du 2 février — premier rang"
+    },
+    {
+      "fichier": "images/02-03/couverture.jpg",
+      "moment": "couverture",
+      "lumiere": "froide et rasante sur la croûte de neige",
+      "couleur": "#16233F",
+      "largeur": 1000,
+      "hauteur": 1400,
+      "contient": [
+        "neige croûtée",
+        "grain durci",
+        "matière du jour"
+      ],
+      "note": "le fond du 3 février — premier rang"
+    },
+    {
+      "fichier": "images/02-04/couverture.jpg",
+      "moment": "couverture",
+      "lumiere": "rasante froide qui longe le bois",
+      "couleur": "#16233F",
+      "largeur": 1000,
+      "hauteur": 1400,
+      "contient": [
+        "vieux parquet ciré",
+        "lattes usées",
+        "matière du jour"
+      ],
+      "note": "le fond du 4 février — premier rang"
+    },
+    {
+      "fichier": "images/02-05/couverture.jpg",
+      "moment": "couverture",
+      "lumiere": "une arête très froide sur le bord métallique",
+      "couleur": "#0D1526",
+      "largeur": 1000,
+      "hauteur": 1400,
+      "contient": [
+        "fonte noircie par la suie",
+        "matière sèche",
+        "matière du jour"
+      ],
+      "note": "le fond du 5 février — premier rang"
+    },
+    {
+      "fichier": "images/02-06/couverture.jpg",
+      "moment": "couverture",
+      "lumiere": "basse et froide, elle peigne la laine dans un sens",
+      "couleur": "#0D1526",
+      "largeur": 1000,
+      "hauteur": 1400,
+      "contient": [
+        "tapis de laine rase",
+        "fibres denses",
+        "matière du jour"
+      ],
+      "note": "le fond du 6 février — premier rang"
+    },
+    {
+      "fichier": "images/02-07/couverture.jpg",
+      "moment": "couverture",
+      "lumiere": "froide sur le grain mouillé, le relief du pli révélé",
+      "couleur": "#0D1526",
+      "largeur": 1000,
+      "hauteur": 1400,
+      "contient": [
+        "gabardine détrempée",
+        "plis lourds",
+        "matière du jour"
+      ],
+      "note": "le fond du 7 février — premier rang"
+    },
+    {
+      "fichier": "images/02-08/couverture.jpg",
+      "moment": "couverture",
+      "lumiere": "une seule lame froide brisée net sur un bord",
+      "couleur": "#0B0B0F",
+      "largeur": 1000,
+      "hauteur": 1400,
+      "contient": [
+        "laque noire polie",
+        "surface lisse",
+        "matière du jour"
+      ],
+      "note": "le fond du 8 février — premier rang"
+    },
+    {
+      "fichier": "images/02-09/couverture.jpg",
+      "moment": "couverture",
+      "lumiere": "froide, une longue traînée linéaire qui s'éteint",
+      "couleur": "#0D1526",
+      "largeur": 1000,
+      "hauteur": 1400,
+      "contient": [
+        "métal brossé",
+        "stries parallèles",
+        "matière du jour"
+      ],
+      "note": "le fond du 9 février — premier rang"
+    },
+    {
+      "fichier": "images/02-10/couverture.jpg",
+      "moment": "couverture",
+      "lumiere": "froide et rasante de droite, chaque fil ressort",
+      "couleur": "#0D1526",
+      "largeur": 1000,
+      "hauteur": 1400,
+      "contient": [
+        "toile de jute brute",
+        "trame large",
+        "matière du jour"
+      ],
+      "note": "le fond du 10 février — premier rang"
+    },
+    {
+      "fichier": "images/02-11/couverture.jpg",
+      "moment": "couverture",
+      "lumiere": "froide, elle éclaire la tranche d'une nappe",
+      "couleur": "#0D1526",
+      "largeur": 1000,
+      "hauteur": 1400,
+      "contient": [
+        "l'orage",
+        "nuages en couches lentes",
+        "matière du jour"
+      ],
+      "note": "le fond du 11 février — premier rang"
+    },
+    {
+      "fichier": "images/02-12/couverture.jpg",
+      "moment": "couverture",
+      "lumiere": "froide et rasante, le grain révélé, les creux d'ombre franche",
+      "couleur": "#0D1526",
+      "largeur": 1000,
+      "hauteur": 1400,
+      "contient": [
+        "tourbe humide",
+        "fibres et terre mêlées",
+        "matière du jour"
+      ],
+      "note": "le fond du 12 février — premier rang"
+    },
+    {
+      "fichier": "images/02-13/couverture.jpg",
+      "moment": "couverture",
+      "lumiere": "très rasante, le grain révélé, larges ombres douces",
+      "couleur": "#0D1526",
+      "largeur": 1000,
+      "hauteur": 1400,
+      "contient": [
+        "cendre froide",
+        "poudre fine",
+        "matière du jour"
+      ],
+      "note": "le fond du 13 février — premier rang"
+    },
+    {
+      "fichier": "images/02-14/apres-midi.jpg",
+      "moment": "apres-midi",
+      "lumiere": "qui penche, un côté chaud un côté froid, un rai qui traverse",
+      "couleur": "#0D1526",
+      "largeur": 1000,
+      "hauteur": 1400,
+      "contient": [
+        "valentin",
+        "trois-quarts",
+        "table de travail",
+        "papiers et tissu"
+      ],
+      "note": "l'après-midi — le pont, l'image qui mène au mariage"
+    },
+    {
+      "fichier": "images/02-14/aube.jpg",
+      "moment": "aube",
+      "lumiere": "froide et rasante, le bleu d'avant le jour, une longue ombre",
+      "couleur": "#0D1526",
+      "largeur": 1000,
+      "hauteur": 1400,
+      "contient": [
+        "valentin",
+        "portrait",
+        "lieu vide en désordre",
+        "chaises empilées"
+      ],
+      "note": "l'aube — l'image de référence du jour, les quatre autres sont tenues sur elle"
+    },
+    {
+      "fichier": "images/02-14/couverture.jpg",
+      "moment": "couverture",
+      "lumiere": "une arête froide sur le filet de cire, le velours absorbe tout",
+      "couleur": "#0D1526",
+      "largeur": 1000,
+      "hauteur": 1400,
+      "contient": [
+        "velours bleu nuit",
+        "plis larges",
+        "cire rouge sombre en accent",
+        "matière du jour"
+      ],
+      "note": "le fond de la Saint-Valentin — la cire, jamais le cœur kitsch"
+    },
+    {
+      "fichier": "images/02-14/matin.jpg",
+      "moment": "matin",
+      "lumiere": "claire et franche, deux sources, des blancs tenus",
+      "couleur": "#0D1526",
+      "largeur": 1000,
+      "hauteur": 1400,
+      "contient": [
+        "valentin",
+        "architecture contemporaine",
+        "béton et verre",
+        "plan de travail"
+      ],
+      "note": "le matin — la mise en place, le savoir-faire se voit"
+    },
+    {
+      "fichier": "images/02-14/midi.jpg",
+      "moment": "midi",
+      "lumiere": "de studio, dure et graphique, une ombre nette au sol",
+      "couleur": "#0D1526",
+      "largeur": 1000,
+      "hauteur": 1400,
+      "contient": [
+        "valentin",
+        "portrait",
+        "fond plein",
+        "la pièce maîtresse"
+      ],
+      "note": "le midi — le portrait, l'image où il est le plus lui-même"
+    },
+    {
+      "fichier": "images/02-14/soir.jpg",
+      "moment": "soir",
+      "lumiere": "golden hour puis nuit, une source chaude, un fond qui s'éteint",
+      "couleur": "#0D1526",
+      "largeur": 1000,
+      "hauteur": 1400,
+      "contient": [
+        "valentin",
+        "table dressée",
+        "bougies dans des verres",
+        "extérieur bleu"
+      ],
+      "note": "le soir — la célébration intime, les convives sont hors champ"
+    },
+    {
+      "fichier": "images/02-15/couverture.jpg",
+      "moment": "couverture",
+      "lumiere": "froide en biais, une seule arête lustrée",
+      "couleur": "#0B0B0F",
+      "largeur": 1000,
+      "hauteur": 1400,
+      "contient": [
+        "cuir noir profond",
+        "grain mat",
+        "matière du jour"
+      ],
+      "note": "le fond du 15 février — premier rang"
+    },
+    {
+      "fichier": "images/02-16/couverture.jpg",
+      "moment": "couverture",
+      "lumiere": "une large nappe froide qui glisse sur la matière",
+      "couleur": "#0D1526",
+      "largeur": 1000,
+      "hauteur": 1400,
+      "contient": [
+        "cire d'abeille",
+        "matière dense et translucide",
+        "matière du jour"
+      ],
+      "note": "le fond du 16 février — premier rang"
+    },
+    {
+      "fichier": "images/02-17/couverture.jpg",
+      "moment": "couverture",
+      "lumiere": "une lumière froide très faible dans les volutes",
+      "couleur": "#0D1526",
+      "largeur": 1000,
+      "hauteur": 1400,
+      "contient": [
+        "fumée lente en colonne",
+        "nuit",
+        "matière du jour"
+      ],
+      "note": "le fond du 17 février — premier rang"
+    },
+    {
+      "fichier": "images/02-18/couverture.jpg",
+      "moment": "couverture",
+      "lumiere": "une arête très douce qui suit un pli large",
+      "couleur": "#0D1526",
+      "largeur": 1000,
+      "hauteur": 1400,
+      "contient": [
+        "laine bouillie noire",
+        "surface dense",
+        "matière du jour"
+      ],
+      "note": "le fond du 18 février — premier rang"
+    },
+    {
+      "fichier": "images/02-19/couverture.jpg",
+      "moment": "couverture",
+      "lumiere": "froide et rasante de gauche, chaque côte révélée",
+      "couleur": "#0D1526",
+      "largeur": 1000,
+      "hauteur": 1400,
+      "contient": [
+        "velours côtelé profond",
+        "côtes serrées",
+        "matière du jour"
+      ],
+      "note": "le fond du 19 février — premier rang"
+    },
+    {
+      "fichier": "images/02-20/couverture.jpg",
+      "moment": "couverture",
+      "lumiere": "froide, elle traverse les couches et monte à travers la matière",
+      "couleur": "#0D1526",
+      "largeur": 1000,
+      "hauteur": 1400,
+      "contient": [
+        "papier calque superposé",
+        "bords décalés",
+        "matière du jour"
+      ],
+      "note": "le fond du 20 février — premier rang"
+    },
+    {
+      "fichier": "images/02-21/couverture.jpg",
+      "moment": "couverture",
+      "lumiere": "une nappe froide qui glisse et s'éteint",
+      "couleur": "#0D1526",
+      "largeur": 1000,
+      "hauteur": 1400,
+      "contient": [
+        "étain martelé",
+        "petits creux",
+        "matière du jour"
+      ],
+      "note": "le fond du 21 février — premier rang"
+    },
+    {
+      "fichier": "images/03-17/apres-midi.jpg",
+      "moment": "apres-midi",
+      "lumiere": "qui penche, un côté chaud un côté froid, un rai qui traverse",
+      "couleur": "#0D1526",
+      "largeur": 1000,
+      "hauteur": 1400,
+      "contient": [
+        "patrick",
+        "trois-quarts",
+        "pierre sèche",
+        "herbe rase",
+        "bâton de marche"
+      ],
+      "note": "l'après-midi — le pont, l'image qui mène au mariage"
+    },
+    {
+      "fichier": "images/03-17/aube.jpg",
+      "moment": "aube",
+      "lumiere": "froide et rasante, le bleu d'avant le jour, une longue ombre",
+      "couleur": "#0D1526",
+      "largeur": 1000,
+      "hauteur": 1400,
+      "contient": [
+        "patrick",
+        "portrait",
+        "grosse laine verte",
+        "caban",
+        "trèfle frais",
+        "bâton de marche",
+        "lieu vide en désordre"
+      ],
+      "note": "l'aube — l'image de référence du jour, les quatre autres sont tenues sur elle"
+    },
+    {
+      "fichier": "images/03-17/matin.jpg",
+      "moment": "matin",
+      "lumiere": "claire et franche, deux sources, des blancs tenus",
+      "couleur": "#0D1526",
+      "largeur": 1000,
+      "hauteur": 1400,
+      "contient": [
+        "patrick",
+        "architecture contemporaine",
+        "verre et escalier",
+        "en mouvement"
+      ],
+      "note": "le matin — la mise en place, il travaille"
+    },
+    {
+      "fichier": "images/03-17/midi.jpg",
+      "moment": "midi",
+      "lumiere": "de studio, dure et graphique, fond plein vert",
+      "couleur": "#0D1526",
+      "largeur": 1000,
+      "hauteur": 1400,
+      "contient": [
+        "patrick",
+        "portrait",
+        "fond plein vert",
+        "la pièce maîtresse",
+        "trèfle à la main"
+      ],
+      "note": "le midi — le portrait, l'image où il est le plus lui-même"
+    },
+    {
+      "fichier": "images/03-17/soir.jpg",
+      "moment": "soir",
+      "lumiere": "golden hour puis nuit, une source chaude, un fond qui s'éteint",
+      "couleur": "#0D1526",
+      "largeur": 1000,
+      "hauteur": 1400,
+      "contient": [
+        "patrick",
+        "table dressée",
+        "bougies dans des verres",
+        "extérieur bleu",
+        "assis"
+      ],
+      "note": "le soir — la célébration intime, les convives sont hors champ"
+    },
+    {
+      "fichier": "images/05-16/apres-midi.jpg",
+      "moment": "apres-midi",
+      "lumiere": "qui penche, un côté chaud un côté froid, un rai qui traverse",
+      "couleur": "#7FB77E",
+      "largeur": 1000,
+      "hauteur": 1400,
+      "contient": [
+        "honoré",
+        "trois-quarts",
+        "table farinée",
+        "pâte qui lève",
+        "pièce montée de choux"
+      ],
+      "note": "l'après-midi — le pont, le dessert de la table"
+    },
+    {
+      "fichier": "images/05-16/aube.jpg",
+      "moment": "aube",
+      "lumiere": "froide et rasante, le bleu d'avant le jour, une longue ombre",
+      "couleur": "#7FB77E",
+      "largeur": 1000,
+      "hauteur": 1400,
+      "contient": [
+        "honoré",
+        "portrait",
+        "tablier de toile écrue",
+        "torchon sur l'épaule",
+        "farine",
+        "lieu vide en désordre"
+      ],
+      "note": "l'aube — l'image de référence du jour, les quatre autres sont tenues sur elle"
+    },
+    {
+      "fichier": "images/05-16/matin.jpg",
+      "moment": "matin",
+      "lumiere": "claire et franche, deux sources, des blancs tenus",
+      "couleur": "#7FB77E",
+      "largeur": 1000,
+      "hauteur": 1400,
+      "contient": [
+        "honoré",
+        "architecture contemporaine",
+        "béton et verre",
+        "pétrissage",
+        "la main dans la pâte"
+      ],
+      "note": "le matin — la mise en place, le savoir-faire se voit"
+    },
+    {
+      "fichier": "images/05-16/midi.jpg",
+      "moment": "midi",
+      "lumiere": "de studio, dure et graphique, fond plein",
+      "couleur": "#7FB77E",
+      "largeur": 1000,
+      "hauteur": 1400,
+      "contient": [
+        "honoré",
+        "portrait",
+        "fond plein vert tendre",
+        "la pièce maîtresse"
+      ],
+      "note": "le midi — le portrait, l'image où il est le plus lui-même"
+    },
+    {
+      "fichier": "images/05-16/soir.jpg",
+      "moment": "soir",
+      "lumiere": "golden hour puis nuit, une source chaude, un fond qui s'éteint",
+      "couleur": "#7FB77E",
+      "largeur": 1000,
+      "hauteur": 1400,
+      "contient": [
+        "honoré",
+        "table dressée",
+        "bougies",
+        "pain entamé",
+        "extérieur bleu"
+      ],
+      "note": "le soir — la célébration intime, les convives sont hors champ"
+    },
+    {
+      "fichier": "images/06-24/apres-midi.jpg",
+      "moment": "apres-midi",
+      "lumiere": "qui penche, un côté chaud un côté froid, un rai qui traverse",
+      "couleur": "#7FB77E",
+      "largeur": 1000,
+      "hauteur": 1400,
+      "contient": [
+        "jean-baptiste",
+        "trois-quarts",
+        "livre d'or ouvert",
+        "encre",
+        "feuilles libres"
+      ],
+      "note": "l'après-midi — le pont : le nom qu'on écrit, ce qui mène au mariage"
+    },
+    {
+      "fichier": "images/06-24/aube.jpg",
+      "moment": "aube",
+      "lumiere": "froide et rasante, le bleu d'avant le jour, la brume sur l'eau",
+      "couleur": "#7FB77E",
+      "largeur": 1000,
+      "hauteur": 1400,
+      "contient": [
+        "jean-baptiste",
+        "portrait",
+        "lin brut",
+        "ceinture de cuir",
+        "pieds nus",
+        "bâton planté",
+        "chaises empilées"
+      ],
+      "note": "l'aube — l'image de référence du jour, les quatre autres sont tenues sur elle"
+    },
+    {
+      "fichier": "images/06-24/matin.jpg",
+      "moment": "matin",
+      "lumiere": "claire et franche, deux sources, des blancs tenus",
+      "couleur": "#7FB77E",
+      "largeur": 1000,
+      "hauteur": 1400,
+      "contient": [
+        "jean-baptiste",
+        "architecture contemporaine",
+        "béton et verre",
+        "longue table en dressage"
+      ],
+      "note": "le matin — la mise en place, le geste du savoir-faire"
+    },
+    {
+      "fichier": "images/06-24/midi.jpg",
+      "moment": "midi",
+      "lumiere": "de studio, dure et graphique, fond plein jaune chaud",
+      "couleur": "#7FB77E",
+      "largeur": 1000,
+      "hauteur": 1400,
+      "contient": [
+        "jean-baptiste",
+        "portrait",
+        "fond plein jaune chaud",
+        "lin brut",
+        "bâton à la main"
+      ],
+      "note": "le midi — refait sur la référence : le lin brut est rétabli, la chemise bleue est partie"
+    },
+    {
+      "fichier": "images/06-24/soir.jpg",
+      "moment": "soir",
+      "lumiere": "golden hour puis nuit, une source chaude, un fond qui s'éteint",
+      "couleur": "#7FB77E",
+      "largeur": 1000,
+      "hauteur": 1400,
+      "contient": [
+        "jean-baptiste",
+        "table dressée",
+        "bougies",
+        "feux allumés au loin sur les collines",
+        "torches"
+      ],
+      "note": "le soir — le solstice, la nuit la plus courte ; les convives sont hors champ"
+    },
+    {
+      "fichier": "images/07-12/apres-midi.jpg",
+      "moment": "apres-midi",
+      "lumiere": "qui penche, un côté chaud un côté froid, un rai qui traverse",
+      "couleur": "#0B0B0F",
+      "largeur": 1000,
+      "hauteur": 1400,
+      "contient": [
+        "véronique",
+        "trois-quarts",
+        "tirages encore mouillés sur un fil",
+        "cuvettes",
+        "pinces"
+      ],
+      "note": "l'après-midi — le pont : le portrait qu'on garde, ce qui mène au mariage"
+    },
+    {
+      "fichier": "images/07-12/aube.jpg",
+      "moment": "aube",
+      "lumiere": "froide et rasante, le bleu d'avant le jour, une longue ombre",
+      "couleur": "#0B0B0F",
+      "largeur": 1000,
+      "hauteur": 1400,
+      "contient": [
+        "véronique",
+        "portrait",
+        "voile de lin blanc",
+        "appareil moyen format",
+        "lieu vide en désordre"
+      ],
+      "note": "l'aube — l'image de référence du jour, les quatre autres sont tenues sur elle"
+    },
+    {
+      "fichier": "images/07-12/matin.jpg",
+      "moment": "matin",
+      "lumiere": "claire et franche, deux sources, des blancs tenus",
+      "couleur": "#0B0B0F",
+      "largeur": 1000,
+      "hauteur": 1400,
+      "contient": [
+        "véronique",
+        "architecture contemporaine",
+        "chambre photographique sur pied",
+        "réglage"
+      ],
+      "note": "le matin — la mise en place, le savoir-faire se voit"
+    },
+    {
+      "fichier": "images/07-12/midi.jpg",
+      "moment": "midi",
+      "lumiere": "de studio, dure et graphique, fond plein jaune chaud",
+      "couleur": "#0B0B0F",
+      "largeur": 1000,
+      "hauteur": 1400,
+      "contient": [
+        "véronique",
+        "portrait",
+        "fond plein jaune chaud",
+        "le lin blanc",
+        "l'appareil en bandoulière"
+      ],
+      "note": "le midi — le portrait, l'image où elle est le plus elle-même"
+    },
+    {
+      "fichier": "images/07-12/soir.jpg",
+      "moment": "soir",
+      "lumiere": "golden hour puis nuit, une source chaude, un fond qui s'éteint",
+      "couleur": "#0B0B0F",
+      "largeur": 1000,
+      "hauteur": 1400,
+      "contient": [
+        "véronique",
+        "table dressée",
+        "bougies dans des verres",
+        "extérieur bleu",
+        "assise"
+      ],
+      "note": "le soir — la célébration intime, les convives sont hors champ"
+    }
+  ]
+}

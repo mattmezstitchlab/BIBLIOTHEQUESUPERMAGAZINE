@@ -274,6 +274,146 @@
         "craquelures"
       ],
       "note": "le fond du 18 janvier — premier rang"
+    },
+    {
+      "fichier": "images/01-19/couverture.jpg",
+      "moment": "couverture",
+      "lumiere": "rasante sur l'ardoise mouillée, le grain nuancé lu",
+      "couleur": "#16233F",
+      "largeur": 1000,
+      "hauteur": 1400,
+      "contient": [
+        "ardoise mouillée",
+        "plaques superposées",
+        "matière du jour"
+      ],
+      "note": "le fond du 19 janvier — premier rang"
+    },
+    {
+      "fichier": "images/01-20/couverture.jpg",
+      "moment": "couverture",
+      "lumiere": "une arête dure, l'éclat métallique révélé",
+      "couleur": "#16233F",
+      "largeur": 1000,
+      "hauteur": 1400,
+      "contient": [
+        "graphite étalé",
+        "poussière minérale",
+        "matière du jour"
+      ],
+      "note": "le fond du 20 janvier — premier rang"
+    },
+    {
+      "fichier": "images/01-21/couverture.jpg",
+      "moment": "couverture",
+      "lumiere": "rétro-éclairée, translucide, une profondeur bleutée",
+      "couleur": "#16233F",
+      "largeur": 1000,
+      "hauteur": 1400,
+      "contient": [
+        "albâtre",
+        "veines laiteuses",
+        "matière du jour"
+      ],
+      "note": "le fond du 21 janvier — premier rang"
+    },
+    {
+      "fichier": "images/01-22/couverture.jpg",
+      "moment": "couverture",
+      "lumiere": "rasante de côté, les fibres carbonisées prises une à une",
+      "couleur": "#16233F",
+      "largeur": 1000,
+      "hauteur": 1400,
+      "contient": [
+        "bois calciné",
+        "surface noire",
+        "matière du jour"
+      ],
+      "note": "le fond du 22 janvier — premier rang"
+    },
+    {
+      "fichier": "images/01-23/couverture.jpg",
+      "moment": "couverture",
+      "lumiere": "dure sur le bitume mouillé, deux reflets larges",
+      "couleur": "#16233F",
+      "largeur": 1000,
+      "hauteur": 1400,
+      "contient": [
+        "bitume",
+        "granulats serrés",
+        "matière du jour"
+      ],
+      "note": "le fond du 23 janvier — premier rang"
+    },
+    {
+      "fichier": "images/01-24/couverture.jpg",
+      "moment": "couverture",
+      "lumiere": "froide sur la patine mate, une longue arête en diagonale",
+      "couleur": "#16233F",
+      "largeur": 1000,
+      "hauteur": 1400,
+      "contient": [
+        "métal fondu refroidi",
+        "patine oxydée",
+        "matière du jour"
+      ],
+      "note": "le fond du 24 janvier — premier rang"
+    },
+    {
+      "fichier": "images/01-25/couverture.jpg",
+      "moment": "couverture",
+      "lumiere": "une seule arête vive, le reste dans un noir absolu",
+      "couleur": "#0B0B0F",
+      "largeur": 1000,
+      "hauteur": 1400,
+      "contient": [
+        "obsidienne",
+        "arêtes coupantes",
+        "matière du jour"
+      ],
+      "note": "le fond du 25 janvier — premier rang"
+    },
+    {
+      "fichier": "images/01-26/couverture.jpg",
+      "moment": "couverture",
+      "lumiere": "réflexion large et douce sur l'émail bombé",
+      "couleur": "#16233F",
+      "largeur": 1000,
+      "hauteur": 1400,
+      "contient": [
+        "céramique émaillée",
+        "craquelures fines",
+        "matière du jour"
+      ],
+      "note": "le fond du 26 janvier — premier rang"
+    },
+    {
+      "fichier": "images/01-27/couverture.jpg",
+      "moment": "couverture",
+      "lumiere": "rétro-éclairé par le fond, halo profond et contenu",
+      "couleur": "#16233F",
+      "largeur": 1000,
+      "hauteur": 1400,
+      "contient": [
+        "verre soufflé",
+        "bulles retenues dans la masse",
+        "matière du jour"
+      ],
+      "note": "le fond du 27 janvier — premier rang"
+    },
+    {
+      "fichier": "images/01-28/couverture.jpg",
+      "moment": "couverture",
+      "lumiere": "rasante en diagonale, le relief lu rangée après rangée",
+      "couleur": "#16233F",
+      "largeur": 1000,
+      "hauteur": 1400,
+      "contient": [
+        "brique peinte",
+        "joints apparents",
+        "matière du jour"
+      ],
+      "note": "le fond du 28 janvier — premier rang"
     }
   ]
 }

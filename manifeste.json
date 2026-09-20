@@ -772,6 +772,62 @@
       "note": "le fond du 17 février — premier rang"
     },
     {
+      "fichier": "images/02-18/couverture.jpg",
+      "moment": "couverture",
+      "lumiere": "une arête très douce qui suit un pli large",
+      "couleur": "#0D1526",
+      "largeur": 1000,
+      "hauteur": 1400,
+      "contient": [
+        "laine bouillie noire",
+        "surface dense",
+        "matière du jour"
+      ],
+      "note": "le fond du 18 février — premier rang"
+    },
+    {
+      "fichier": "images/02-19/couverture.jpg",
+      "moment": "couverture",
+      "lumiere": "froide et rasante de gauche, chaque côte révélée",
+      "couleur": "#0D1526",
+      "largeur": 1000,
+      "hauteur": 1400,
+      "contient": [
+        "velours côtelé profond",
+        "côtes serrées",
+        "matière du jour"
+      ],
+      "note": "le fond du 19 février — premier rang"
+    },
+    {
+      "fichier": "images/02-20/couverture.jpg",
+      "moment": "couverture",
+      "lumiere": "froide, elle traverse les couches et monte à travers la matière",
+      "couleur": "#0D1526",
+      "largeur": 1000,
+      "hauteur": 1400,
+      "contient": [
+        "papier calque superposé",
+        "bords décalés",
+        "matière du jour"
+      ],
+      "note": "le fond du 20 février — premier rang"
+    },
+    {
+      "fichier": "images/02-21/couverture.jpg",
+      "moment": "couverture",
+      "lumiere": "une nappe froide qui glisse et s'éteint",
+      "couleur": "#0D1526",
+      "largeur": 1000,
+      "hauteur": 1400,
+      "contient": [
+        "étain martelé",
+        "petits creux",
+        "matière du jour"
+      ],
+      "note": "le fond du 21 février — premier rang"
+    },
+    {
       "fichier": "images/03-17/apres-midi.jpg",
       "moment": "apres-midi",
       "lumiere": "qui penche, un côté chaud un côté froid, un rai qui traverse",
@@ -984,7 +1040,7 @@
     {
       "fichier": "images/06-24/midi.jpg",
       "moment": "midi",
-      "lumiere": "de studio, dure et graphique, fond plein",
+      "lumiere": "de studio, dure et graphique, fond plein jaune chaud",
       "couleur": "#7FB77E",
       "largeur": 1000,
       "hauteur": 1400,
@@ -992,9 +1048,10 @@
         "jean-baptiste",
         "portrait",
         "fond plein jaune chaud",
-        "le bâton à la main"
+        "lin brut",
+        "bâton à la main"
       ],
-      "note": "le midi — le portrait ; À REFAIRE : la chemise bleue rompt la continuité du lin brut tenue sur les quatre autres moments"
+      "note": "le midi — refait sur la référence : le lin brut est rétabli, la chemise bleue est partie"
     },
     {
       "fichier": "images/06-24/soir.jpg",
@@ -1011,6 +1068,85 @@
         "torches"
       ],
       "note": "le soir — le solstice, la nuit la plus courte ; les convives sont hors champ"
+    },
+    {
+      "fichier": "images/07-12/apres-midi.jpg",
+      "moment": "apres-midi",
+      "lumiere": "qui penche, un côté chaud un côté froid, un rai qui traverse",
+      "couleur": "#0B0B0F",
+      "largeur": 1000,
+      "hauteur": 1400,
+      "contient": [
+        "véronique",
+        "trois-quarts",
+        "tirages encore mouillés sur un fil",
+        "cuvettes",
+        "pinces"
+      ],
+      "note": "l'après-midi — le pont : le portrait qu'on garde, ce qui mène au mariage"
+    },
+    {
+      "fichier": "images/07-12/aube.jpg",
+      "moment": "aube",
+      "lumiere": "froide et rasante, le bleu d'avant le jour, une longue ombre",
+      "couleur": "#0B0B0F",
+      "largeur": 1000,
+      "hauteur": 1400,
+      "contient": [
+        "véronique",
+        "portrait",
+        "voile de lin blanc",
+        "appareil moyen format",
+        "lieu vide en désordre"
+      ],
+      "note": "l'aube — l'image de référence du jour, les quatre autres sont tenues sur elle"
+    },
+    {
+      "fichier": "images/07-12/matin.jpg",
+      "moment": "matin",
+      "lumiere": "claire et franche, deux sources, des blancs tenus",
+      "couleur": "#0B0B0F",
+      "largeur": 1000,
+      "hauteur": 1400,
+      "contient": [
+        "véronique",
+        "architecture contemporaine",
+        "chambre photographique sur pied",
+        "réglage"
+      ],
+      "note": "le matin — la mise en place, le savoir-faire se voit"
+    },
+    {
+      "fichier": "images/07-12/midi.jpg",
+      "moment": "midi",
+      "lumiere": "de studio, dure et graphique, fond plein jaune chaud",
+      "couleur": "#0B0B0F",
+      "largeur": 1000,
+      "hauteur": 1400,
+      "contient": [
+        "véronique",
+        "portrait",
+        "fond plein jaune chaud",
+        "le lin blanc",
+        "l'appareil en bandoulière"
+      ],
+      "note": "le midi — le portrait, l'image où elle est le plus elle-même"
+    },
+    {
+      "fichier": "images/07-12/soir.jpg",
+      "moment": "soir",
+      "lumiere": "golden hour puis nuit, une source chaude, un fond qui s'éteint",
+      "couleur": "#0B0B0F",
+      "largeur": 1000,
+      "hauteur": 1400,
+      "contient": [
+        "véronique",
+        "table dressée",
+        "bougies dans des verres",
+        "extérieur bleu",
+        "assise"
+      ],
+      "note": "le soir — la célébration intime, les convives sont hors champ"
     }
   ]
 }

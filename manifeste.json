@@ -556,6 +556,76 @@
       "note": "le fond du 7 février — premier rang"
     },
     {
+      "fichier": "images/02-08/couverture.jpg",
+      "moment": "couverture",
+      "lumiere": "une seule lame froide brisée net sur un bord",
+      "couleur": "#0B0B0F",
+      "largeur": 1000,
+      "hauteur": 1400,
+      "contient": [
+        "laque noire polie",
+        "surface lisse",
+        "matière du jour"
+      ],
+      "note": "le fond du 8 février — premier rang"
+    },
+    {
+      "fichier": "images/02-09/couverture.jpg",
+      "moment": "couverture",
+      "lumiere": "froide, une longue traînée linéaire qui s'éteint",
+      "couleur": "#0D1526",
+      "largeur": 1000,
+      "hauteur": 1400,
+      "contient": [
+        "métal brossé",
+        "stries parallèles",
+        "matière du jour"
+      ],
+      "note": "le fond du 9 février — premier rang"
+    },
+    {
+      "fichier": "images/02-10/couverture.jpg",
+      "moment": "couverture",
+      "lumiere": "froide et rasante de droite, chaque fil ressort",
+      "couleur": "#0D1526",
+      "largeur": 1000,
+      "hauteur": 1400,
+      "contient": [
+        "toile de jute brute",
+        "trame large",
+        "matière du jour"
+      ],
+      "note": "le fond du 10 février — premier rang"
+    },
+    {
+      "fichier": "images/02-11/couverture.jpg",
+      "moment": "couverture",
+      "lumiere": "froide, elle éclaire la tranche d'une nappe",
+      "couleur": "#0D1526",
+      "largeur": 1000,
+      "hauteur": 1400,
+      "contient": [
+        "l'orage",
+        "nuages en couches lentes",
+        "matière du jour"
+      ],
+      "note": "le fond du 11 février — premier rang"
+    },
+    {
+      "fichier": "images/02-12/couverture.jpg",
+      "moment": "couverture",
+      "lumiere": "froide et rasante, le grain révélé, les creux d'ombre franche",
+      "couleur": "#0D1526",
+      "largeur": 1000,
+      "hauteur": 1400,
+      "contient": [
+        "tourbe humide",
+        "fibres et terre mêlées",
+        "matière du jour"
+      ],
+      "note": "le fond du 12 février — premier rang"
+    },
+    {
       "fichier": "images/02-14/apres-midi.jpg",
       "moment": "apres-midi",
       "lumiere": "qui penche, un côté chaud un côté froid, un rai qui traverse",
@@ -708,6 +778,86 @@
         "bougies dans des verres",
         "extérieur bleu",
         "assis"
+      ],
+      "note": "le soir — la célébration intime, les convives sont hors champ"
+    },
+    {
+      "fichier": "images/05-16/apres-midi.jpg",
+      "moment": "apres-midi",
+      "lumiere": "qui penche, un côté chaud un côté froid, un rai qui traverse",
+      "couleur": "#7FB77E",
+      "largeur": 1000,
+      "hauteur": 1400,
+      "contient": [
+        "honoré",
+        "trois-quarts",
+        "table farinée",
+        "pâte qui lève",
+        "pièce montée de choux"
+      ],
+      "note": "l'après-midi — le pont, le dessert de la table"
+    },
+    {
+      "fichier": "images/05-16/aube.jpg",
+      "moment": "aube",
+      "lumiere": "froide et rasante, le bleu d'avant le jour, une longue ombre",
+      "couleur": "#7FB77E",
+      "largeur": 1000,
+      "hauteur": 1400,
+      "contient": [
+        "honoré",
+        "portrait",
+        "tablier de toile écrue",
+        "torchon sur l'épaule",
+        "farine",
+        "lieu vide en désordre"
+      ],
+      "note": "l'aube — l'image de référence du jour, les quatre autres sont tenues sur elle"
+    },
+    {
+      "fichier": "images/05-16/matin.jpg",
+      "moment": "matin",
+      "lumiere": "claire et franche, deux sources, des blancs tenus",
+      "couleur": "#7FB77E",
+      "largeur": 1000,
+      "hauteur": 1400,
+      "contient": [
+        "honoré",
+        "architecture contemporaine",
+        "béton et verre",
+        "pétrissage",
+        "la main dans la pâte"
+      ],
+      "note": "le matin — la mise en place, le savoir-faire se voit"
+    },
+    {
+      "fichier": "images/05-16/midi.jpg",
+      "moment": "midi",
+      "lumiere": "de studio, dure et graphique, fond plein",
+      "couleur": "#7FB77E",
+      "largeur": 1000,
+      "hauteur": 1400,
+      "contient": [
+        "honoré",
+        "portrait",
+        "fond plein vert tendre",
+        "la pièce maîtresse"
+      ],
+      "note": "le midi — le portrait, l'image où il est le plus lui-même"
+    },
+    {
+      "fichier": "images/05-16/soir.jpg",
+      "moment": "soir",
+      "lumiere": "golden hour puis nuit, une source chaude, un fond qui s'éteint",
+      "couleur": "#7FB77E",
+      "largeur": 1000,
+      "hauteur": 1400,
+      "contient": [
+        "honoré",
+        "table dressée",
+        "bougies",
+        "pain entamé",
+        "extérieur bleu"
       ],
       "note": "le soir — la célébration intime, les convives sont hors champ"
     }

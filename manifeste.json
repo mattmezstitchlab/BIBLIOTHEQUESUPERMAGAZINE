@@ -139,29 +139,113 @@
     {
       "fichier": "images/01-09/couverture.jpg",
       "moment": "couverture",
-      "lumiere": "une seule réflexion fine sur l'eau",
+      "lumiere": "une réflexion franche sur l'eau, la moitié du cadre calme",
       "couleur": "#16233F",
       "largeur": 1000,
       "hauteur": 1400,
       "contient": [
         "matière du jour",
-        "eau immobile de nuit"
+        "eau noire",
+        "ondes concentriques"
       ],
-      "note": "le fond du 9 janvier — premier rang"
+      "note": "le fond du 9 janvier — refait, plus de présence"
     },
     {
       "fichier": "images/01-10/couverture.jpg",
       "moment": "couverture",
-      "lumiere": "lumière froide qui rase et s'éteint",
+      "lumiere": "diagonale de lumière froide, coupe nette",
       "couleur": "#16233F",
       "largeur": 1000,
       "hauteur": 1400,
       "contient": [
         "matière du jour",
-        "béton ciré",
-        "pénombre"
+        "béton brut coulé",
+        "aspérités"
       ],
-      "note": "le fond du 10 janvier — premier rang"
+      "note": "le fond du 10 janvier — refait, la texture se lit"
+    },
+    {
+      "fichier": "images/01-11/couverture.jpg",
+      "moment": "couverture",
+      "lumiere": "arête froide en diagonale, le reste noir",
+      "couleur": "#0B0B0F",
+      "largeur": 1000,
+      "hauteur": 1400,
+      "contient": [
+        "matière du jour",
+        "daim noir",
+        "grain velouté"
+      ],
+      "note": "le fond du 11 janvier — premier rang"
+    },
+    {
+      "fichier": "images/01-12/couverture.jpg",
+      "moment": "couverture",
+      "lumiere": "lumière de gauche, deux courbes dessinées",
+      "couleur": "#16233F",
+      "largeur": 1000,
+      "hauteur": 1400,
+      "contient": [
+        "matière du jour",
+        "huile sur eau nocturne"
+      ],
+      "note": "le fond du 12 janvier — premier rang"
+    },
+    {
+      "fichier": "images/01-13/couverture.jpg",
+      "moment": "couverture",
+      "lumiere": "froide et rasante sur la pierre polie",
+      "couleur": "#16233F",
+      "largeur": 1000,
+      "hauteur": 1400,
+      "contient": [
+        "matière du jour",
+        "marbre noir",
+        "veines claires"
+      ],
+      "note": "le fond du 13 janvier — premier rang"
+    },
+    {
+      "fichier": "images/01-14/couverture.jpg",
+      "moment": "couverture",
+      "lumiere": "froide, très diffuse, venue de la droite",
+      "couleur": "#16233F",
+      "largeur": 1000,
+      "hauteur": 1400,
+      "contient": [
+        "matière du jour",
+        "chaux bleu nuit",
+        "texture poudreuse"
+      ],
+      "note": "le fond du 14 janvier — premier rang"
+    },
+    {
+      "fichier": "images/01-15/couverture.jpg",
+      "moment": "couverture",
+      "lumiere": "rasante de gauche, chaque pli lu",
+      "couleur": "#16233F",
+      "largeur": 1000,
+      "hauteur": 1400,
+      "contient": [
+        "matière du jour",
+        "soie sauvage",
+        "plis verticaux"
+      ],
+      "note": "le fond du 15 janvier — premier rang"
+    },
+    {
+      "fichier": "images/01-16/couverture.jpg",
+      "moment": "couverture",
+      "lumiere": "rasante de droite sur le relief du grain",
+      "couleur": "#16233F",
+      "largeur": 1000,
+      "hauteur": 1400,
+      "contient": [
+        "matière du jour",
+        "sable mouillé",
+        "ondulation"
+      ],
+      "note": "le fond du 16 janvier — premier rang"
     }
   ]
 }

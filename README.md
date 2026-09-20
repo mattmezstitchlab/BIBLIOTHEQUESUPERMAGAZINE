@@ -98,6 +98,7 @@ src/lib/                 les modules de données, mot pour mot ceux du site
 | `couverture.jpg`, `aube.jpg`, `matin.jpg`, `midi.jpg`, `apres-midi.jpg`, `soir.jpg` — noms exacts | les fichiers posés aux noms exacts |
 | `-2`, `-3` — des candidates de casting (trois rangs au plus) | les rangs posés dans l'ordre |
 | `manifeste.json` — la déclaration des cinq champs | le manifeste, vérifié par `npm run verifier` |
+| `images/MM-JJ/couverture.jpg` — les fonds | 16/365 livrés (01-01 → 01-16) |
 | 5 / 7 portrait, 1000 × 1400 | le format imposé par la vérification |
 | les liens bruts / GitHub Pages | le dépôt servi tel quel |
 
@@ -136,6 +137,9 @@ npm run lot:fonds  le prochain lot de 16 fonds de couverture (matière, couleur,
                    fichier à poser, la déclaration modèle)
 npm run lot:scenes le prochain lot de 16 journées documentées (le brief, les
                    moments restants, l'aube d'abord)
+npm run declarer   déclare une image : lit jour, plan, rang et dimensions
+                   dans le fichier, ne demande que le regard (lumière, contenu)
+npm run normaliser toute image au 5/7 exact (recadrage centré, jamais étiré)
 npm run relever    ce qui est réellement arrivé dans images/, compté
 npm run verifier   le manifeste tient-il ? (sortie 0/1 — passe au CI)
 npm run prompts    régénère les trois documents de docs/ — ils ne s'écrivent

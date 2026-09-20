@@ -103,9 +103,19 @@ Pour chaque fond :
    identifiable, un fond qui tient sous du texte. La couleur du jour est
    donnée ; la matière n'est pas illustrative, elle est du jour (sa saison,
    sa fête, son caractère).
-2. Produire au format 5 / 7 (1000 × 1400).
-3. Poser le fichier : `images/MM-JJ/couverture.jpg`.
-4. Déclarer l'image dans `manifeste.json` (section 5).
+2. Poser le fichier : `images/MM-JJ/couverture.jpg`.
+3. Mettre au format — **toujours**, l'outil de génération ne rend pas du 5 / 7 :
+   ```
+   npm run normaliser            tout ce qui est posé et hors format
+   npm run normaliser 01-17      un seul jour
+   npm run normaliser --sec      ne rien écrire, montrer
+   ```
+   Le script recadre au centre au plus près du 5 / 7 puis redimensionne à
+   1000 × 1400. **Il ne déforme jamais** : on rogne des pixels de bord, on
+   n'étire pas un visage. C'est ce recadrage qui fait passer le cadrage du
+   manifeste (`largeur * 7 === hauteur * 5`).
+4. Déclarer l'image (section 5) : `npm run declarer images/MM-JJ/couverture.jpg
+   --lumiere "…" --contient "…, matière du jour"`.
 
 Les fonds **n'attendent personne** : c'est la première phase, les 365 d'abord.
 
@@ -128,7 +138,8 @@ restants. Pour chaque journée :
    stylisme — seule la lumière change (et la posture, le décor, l'énergie,
    la narration que le brief dit moment par moment).
 4. Poser les fichiers : `images/MM-JJ/aube.jpg` … `images/MM-JJ/soir.jpg`.
-5. Déclarer chaque image dans `manifeste.json`.
+5. Mettre au format : `npm run normaliser` (section 1, point 3).
+6. Déclarer chaque image (section 5).
 
 **On ne produit que des journées documentées.** Le lot ne prend que des
 jours dont l'état est « prête ». Un jour sans fiche n'a pas de brief, et un
@@ -171,6 +182,29 @@ Chaque image produite porte sa déclaration dans `manifeste.json` :
 | `largeur` / `hauteur` | les dimensions réelles — le ratio attendu est 5 / 7 |
 | `contient` | ce qu'on y voit : le personnage, le sujet, le décor |
 | `note` | libre : le rang, la raison de la candidate, ce qui la distingue |
+
+### Le déclarer sans recopier à la main
+
+```
+npm run declarer images/09-21/midi-2.jpg \
+  --lumiere "dure, studio, graphique, une ombre nette" \
+  --contient "matthieu, portrait, fond plein" \
+  --note "candidate 2 — ombre plus nette"
+```
+
+L'outil **lit dans le fichier** ce qui ne doit pas se recopier : le jour et le
+plan (dans le nom), le rang (`-2`, `-3`), la largeur et la hauteur (dans
+l'en-tête JPEG) ; et il prend par défaut **la couleur du jour** telle que le
+casting la donne. Il ne demande que ce qui est un regard : la lumière, ce
+qu'on voit, la note. `--couleur "#RRGGBB"` pour forcer une dominante réelle
+qui s'écarte du jour.
+
+Il refuse : un chemin hors convention, un jour qui n'existe pas, un plan
+inconnu (la nuit n'a pas d'image), un fichier absent, un JPEG illisible, un
+cadrage qui n'est pas du 5 / 7, une couleur qui n'est pas un `#RRGGBB`, une
+lumière ou un `contient` vides, une image déjà déclarée. Rien n'entre au
+manifeste par accident ; une candidate dont le premier rang manque est
+signalée sans être refusée.
 
 ## 6. Le casting — quand il y a plusieurs candidates
 

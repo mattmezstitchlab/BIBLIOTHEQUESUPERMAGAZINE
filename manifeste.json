@@ -24,5 +24,144 @@
       "le sujet": 1
     }
   },
-  "images": []
+  "images": [
+    {
+      "fichier": "images/01-01/couverture.jpg",
+      "moment": "couverture",
+      "lumiere": "froide, rasante, le bleu d'avant le jour",
+      "couleur": "#16233F",
+      "largeur": 1000,
+      "hauteur": 1400,
+      "contient": [
+        "matière du jour",
+        "givre",
+        "nuit d'hiver"
+      ],
+      "note": "le fond du 1er janvier — premier rang"
+    },
+    {
+      "fichier": "images/01-02/couverture.jpg",
+      "moment": "couverture",
+      "lumiere": "rasante, très douce, une seule arête",
+      "couleur": "#16233F",
+      "largeur": 1000,
+      "hauteur": 1400,
+      "contient": [
+        "matière du jour",
+        "laine feutrée",
+        "plis lourds"
+      ],
+      "note": "le fond du 2 janvier — premier rang"
+    },
+    {
+      "fichier": "images/01-03/couverture.jpg",
+      "moment": "couverture",
+      "lumiere": "froide, diffuse, brume basse",
+      "couleur": "#16233F",
+      "largeur": 1000,
+      "hauteur": 1400,
+      "contient": [
+        "matière du jour",
+        "pierre mouillée"
+      ],
+      "note": "le fond du 3 janvier — premier rang"
+    },
+    {
+      "fichier": "images/01-04/couverture.jpg",
+      "moment": "couverture",
+      "lumiere": "une seule bande très faible, le reste dans l'ombre",
+      "couleur": "#0B0B0F",
+      "largeur": 1000,
+      "hauteur": 1400,
+      "contient": [
+        "matière du jour",
+        "velours noir",
+        "plis profonds"
+      ],
+      "note": "le fond du 4 janvier — premier rang"
+    },
+    {
+      "fichier": "images/01-05/couverture.jpg",
+      "moment": "couverture",
+      "lumiere": "rasante, une arête, douce",
+      "couleur": "#16233F",
+      "largeur": 1000,
+      "hauteur": 1400,
+      "contient": [
+        "matière du jour",
+        "lin froissé",
+        "plis longs"
+      ],
+      "note": "le fond du 5 janvier — premier rang"
+    },
+    {
+      "fichier": "images/01-06/couverture.jpg",
+      "moment": "couverture",
+      "lumiere": "une source décidée, transparence sombre",
+      "couleur": "#16233F",
+      "largeur": 1000,
+      "hauteur": 1400,
+      "contient": [
+        "matière du jour",
+        "encre dans l'eau",
+        "volutes"
+      ],
+      "note": "le fond du 6 janvier — premier rang"
+    },
+    {
+      "fichier": "images/01-07/couverture.jpg",
+      "moment": "couverture",
+      "lumiere": "bande faible, le reste dans un noir dense",
+      "couleur": "#16233F",
+      "largeur": 1000,
+      "hauteur": 1400,
+      "contient": [
+        "matière du jour",
+        "cuir grainé",
+        "pénombre"
+      ],
+      "note": "le fond du 7 janvier — premier rang"
+    },
+    {
+      "fichier": "images/01-08/couverture.jpg",
+      "moment": "couverture",
+      "lumiere": "faisceau froid dirigé, voiles gris-bleu",
+      "couleur": "#16233F",
+      "largeur": 1000,
+      "hauteur": 1400,
+      "contient": [
+        "matière du jour",
+        "fumée fine",
+        "fond vide"
+      ],
+      "note": "le fond du 8 janvier — premier rang"
+    },
+    {
+      "fichier": "images/01-09/couverture.jpg",
+      "moment": "couverture",
+      "lumiere": "une seule réflexion fine sur l'eau",
+      "couleur": "#16233F",
+      "largeur": 1000,
+      "hauteur": 1400,
+      "contient": [
+        "matière du jour",
+        "eau immobile de nuit"
+      ],
+      "note": "le fond du 9 janvier — premier rang"
+    },
+    {
+      "fichier": "images/01-10/couverture.jpg",
+      "moment": "couverture",
+      "lumiere": "lumière froide qui rase et s'éteint",
+      "couleur": "#16233F",
+      "largeur": 1000,
+      "hauteur": 1400,
+      "contient": [
+        "matière du jour",
+        "béton ciré",
+        "pénombre"
+      ],
+      "note": "le fond du 10 janvier — premier rang"
+    }
+  ]
 }

@@ -13,7 +13,9 @@
     "lot:fonds": "node scripts/lots.mjs fonds",
     "lot:scenes": "node scripts/lots.mjs scenes",
     "relever": "node scripts/relever-images.mjs",
-    "verifier": "node scripts/verifier-manifeste.mjs"
+    "verifier": "node scripts/verifier-manifeste.mjs",
+    "normaliser": "node scripts/normaliser-images.mjs",
+    "declarer": "node scripts/declarer-image.mjs"
   },
   "devDependencies": {
     "esbuild": "^0.25.0"

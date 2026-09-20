@@ -486,6 +486,76 @@
       "note": "le fond du 2 février — premier rang"
     },
     {
+      "fichier": "images/02-03/couverture.jpg",
+      "moment": "couverture",
+      "lumiere": "froide et rasante sur la croûte de neige",
+      "couleur": "#16233F",
+      "largeur": 1000,
+      "hauteur": 1400,
+      "contient": [
+        "neige croûtée",
+        "grain durci",
+        "matière du jour"
+      ],
+      "note": "le fond du 3 février — premier rang"
+    },
+    {
+      "fichier": "images/02-04/couverture.jpg",
+      "moment": "couverture",
+      "lumiere": "rasante froide qui longe le bois",
+      "couleur": "#16233F",
+      "largeur": 1000,
+      "hauteur": 1400,
+      "contient": [
+        "vieux parquet ciré",
+        "lattes usées",
+        "matière du jour"
+      ],
+      "note": "le fond du 4 février — premier rang"
+    },
+    {
+      "fichier": "images/02-05/couverture.jpg",
+      "moment": "couverture",
+      "lumiere": "une arête très froide sur le bord métallique",
+      "couleur": "#0D1526",
+      "largeur": 1000,
+      "hauteur": 1400,
+      "contient": [
+        "fonte noircie par la suie",
+        "matière sèche",
+        "matière du jour"
+      ],
+      "note": "le fond du 5 février — premier rang"
+    },
+    {
+      "fichier": "images/02-06/couverture.jpg",
+      "moment": "couverture",
+      "lumiere": "basse et froide, elle peigne la laine dans un sens",
+      "couleur": "#0D1526",
+      "largeur": 1000,
+      "hauteur": 1400,
+      "contient": [
+        "tapis de laine rase",
+        "fibres denses",
+        "matière du jour"
+      ],
+      "note": "le fond du 6 février — premier rang"
+    },
+    {
+      "fichier": "images/02-07/couverture.jpg",
+      "moment": "couverture",
+      "lumiere": "froide sur le grain mouillé, le relief du pli révélé",
+      "couleur": "#0D1526",
+      "largeur": 1000,
+      "hauteur": 1400,
+      "contient": [
+        "gabardine détrempée",
+        "plis lourds",
+        "matière du jour"
+      ],
+      "note": "le fond du 7 février — premier rang"
+    },
+    {
       "fichier": "images/02-14/apres-midi.jpg",
       "moment": "apres-midi",
       "lumiere": "qui penche, un côté chaud un côté froid, un rai qui traverse",
@@ -557,6 +627,87 @@
         "table dressée",
         "bougies dans des verres",
         "extérieur bleu"
+      ],
+      "note": "le soir — la célébration intime, les convives sont hors champ"
+    },
+    {
+      "fichier": "images/03-17/apres-midi.jpg",
+      "moment": "apres-midi",
+      "lumiere": "qui penche, un côté chaud un côté froid, un rai qui traverse",
+      "couleur": "#0D1526",
+      "largeur": 1000,
+      "hauteur": 1400,
+      "contient": [
+        "patrick",
+        "trois-quarts",
+        "pierre sèche",
+        "herbe rase",
+        "bâton de marche"
+      ],
+      "note": "l'après-midi — le pont, l'image qui mène au mariage"
+    },
+    {
+      "fichier": "images/03-17/aube.jpg",
+      "moment": "aube",
+      "lumiere": "froide et rasante, le bleu d'avant le jour, une longue ombre",
+      "couleur": "#0D1526",
+      "largeur": 1000,
+      "hauteur": 1400,
+      "contient": [
+        "patrick",
+        "portrait",
+        "grosse laine verte",
+        "caban",
+        "trèfle frais",
+        "bâton de marche",
+        "lieu vide en désordre"
+      ],
+      "note": "l'aube — l'image de référence du jour, les quatre autres sont tenues sur elle"
+    },
+    {
+      "fichier": "images/03-17/matin.jpg",
+      "moment": "matin",
+      "lumiere": "claire et franche, deux sources, des blancs tenus",
+      "couleur": "#0D1526",
+      "largeur": 1000,
+      "hauteur": 1400,
+      "contient": [
+        "patrick",
+        "architecture contemporaine",
+        "verre et escalier",
+        "en mouvement"
+      ],
+      "note": "le matin — la mise en place, il travaille"
+    },
+    {
+      "fichier": "images/03-17/midi.jpg",
+      "moment": "midi",
+      "lumiere": "de studio, dure et graphique, fond plein vert",
+      "couleur": "#0D1526",
+      "largeur": 1000,
+      "hauteur": 1400,
+      "contient": [
+        "patrick",
+        "portrait",
+        "fond plein vert",
+        "la pièce maîtresse",
+        "trèfle à la main"
+      ],
+      "note": "le midi — le portrait, l'image où il est le plus lui-même"
+    },
+    {
+      "fichier": "images/03-17/soir.jpg",
+      "moment": "soir",
+      "lumiere": "golden hour puis nuit, une source chaude, un fond qui s'éteint",
+      "couleur": "#0D1526",
+      "largeur": 1000,
+      "hauteur": 1400,
+      "contient": [
+        "patrick",
+        "table dressée",
+        "bougies dans des verres",
+        "extérieur bleu",
+        "assis"
       ],
       "note": "le soir — la célébration intime, les convives sont hors champ"
     }

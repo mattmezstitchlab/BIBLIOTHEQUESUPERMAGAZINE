@@ -154,16 +154,32 @@ séparée, et elle n’a pas été prise.
 
 ---
 
-## 8. Ce qui est demandé
+## 8. Ce qui a été décidé — 20 septembre 2026
 
-Trois décisions, et une seule à prendre maintenant :
+**Option C : archive, et rien d’autre.** Les 77 images restent où elles sont, avec
+leurs URLs, leur manifeste et leur vérificateur. **Aucun remappage n’a lieu.** La
+bibliothèque des 54 semaines part de zéro.
 
-1. **Quelle option** pour les 52 matières — A, B ou C ?
-2. **Les scènes** peuvent-elles servir le chapitre « Les amoureux » alors
-   qu’elles montrent une personne seule, ou faut-il des couples ?
-3. **Les 365 dossiers de jour vides** — on les garde pour mémoire, ou on les
-   supprime ?
+| question | décision | effet |
+| --- | --- | --- |
+| Les 52 matières | **archive** | `images/MM-JJ/` continue de servir ; rien ne bouge |
+| Les 25 scènes | **archive** | elles restent des journées complètes de l’ancien modèle |
+| Le chapitre « Les amoureux » | **deux personnes** | les scènes, qui montrent une personne seule, ne peuvent pas y prétendre — c’est écrit dans `scripts/semaines.mjs` (`REGLES_DE_CHAPITRE`) et rappelé par `npm run semaines:lot` |
+| Les 365 dossiers de jour vides | **gardés** | ils restent pour mémoire ; leur suppression est une décision séparée |
+| Le format de la collection | **A4 portrait, 1240 × 1754** | ce n’est pas du 5 / 7 — le normaliseur et le vérificateur savent lequel s’applique à quel dossier |
 
-Tant qu’aucune réponse n’est donnée, **rien ne bouge** : les deux structures
-coexistent, et les deux vérificateurs passent.
+**Ce que ça veut dire concrètement :** l’ancienne bibliothèque est un témoin, pas
+un gisement. Le nouveau modèle ne réutilise rien d’elle — et ne dépend donc de
+rien de ce qu’elle contient.
+
+---
+
+## 9. Ce que le remappage n’aurait pas fait
+
+- **Il n’aurait pas renommé** `images/MM-JJ/` en `images/semaine-NN/` : ce sont
+  deux structures différentes, pas deux écritures du même nom.
+- **Il n’aurait pas touché** au manifeste des jours : il reste la déclaration de
+  ce qui a été produit sous l’ancien modèle.
+- **Il n’aurait pas franchi la frontière des saisons** : une matière d’hiver ne
+  devient pas une couverture d’août.
 

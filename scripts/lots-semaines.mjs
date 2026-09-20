@@ -14,8 +14,8 @@
 import { existsSync, readdirSync, readFileSync } from 'node:fs';
 import { join } from 'node:path';
 
-import { RACINE, analyserFichier } from './bibliotheque.mjs';
-import { CHAPITRES, COUVERTURE, IMAGES_DE_LA_SEMAINE, NOMBRE_DE_SEMAINES, SAISON_EN_FRANCAIS, cheminSemaine, plageDates, saisonDeLaSemaine, semaineComplete } from './semaines.mjs';
+import { RACINE } from './bibliotheque.mjs';
+import { CHAPITRES, COUVERTURE, FORMAT, IMAGES_DE_LA_SEMAINE, NOMBRE_DE_SEMAINES, REGLES_DE_CHAPITRE, SAISON_EN_FRANCAIS, cheminSemaine, plageDates, saisonDeLaSemaine, semaineComplete, analyserNomDeSemaine } from './semaines.mjs';
 
 const args = process.argv.slice(2);
 const ordre = args[0] ?? 'etat';
@@ -31,7 +31,7 @@ function etatDisque() {
     const poses = new Set();
     for (const fichier of readdirSync(join(dossier, entree))) {
       if (fichier.startsWith('.')) continue;
-      const { slot } = analyserFichier(fichier);
+      const slot = analyserNomDeSemaine(fichier)?.slot;
       if (slot) poses.add(slot);
     }
     parSemaine.set(numero, poses);
@@ -115,6 +115,7 @@ for (const slug of IMAGES_DE_LA_SEMAINE) {
   const chemin = `images/${cheminSemaine(n)}/${slug}.jpg`;
   console.log(`  ${etat.padEnd(8)} ${chemin}`);
   console.log(`           ${chapitre ? `${chapitre.nom} — ${chapitre.univers}` : 'la couverture : la porte d’entrée du magazine'}`);
+  if (REGLES_DE_CHAPITRE[slug]) console.log(`           RÈGLE : ${REGLES_DE_CHAPITRE[slug]}`);
 }
 
 console.log(`\nLA RÈGLE — les sept chapitres se répondent :`);
@@ -122,7 +123,7 @@ console.log(`- même palette, même lumière, même saison ;`);
 console.log(`- la couverture annonce l’univers de la semaine — **pas de mariés par défaut**,`);
 console.log(`  le mariage se suggère par son univers culturel, esthétique, humain ou émotionnel ;`);
 console.log(`- chaque chapitre reste immédiatement identifiable ;`);
-console.log(`- format 5 / 7 (${'1000 × 1400'}), aucun texte dans l’image, aucun kitsch religieux.`);
+console.log(`- format A4 portrait (1240 × 1754), aucun texte dans l’image, aucun kitsch religieux.`);
 
 console.log(`\nPOUR CHAQUE IMAGE POSÉE — la déclaration, dans \`manifeste-semaines.json\` :\n`);
 console.log(JSON.stringify({
@@ -137,7 +138,7 @@ console.log(JSON.stringify({
   dominante_color: s.palette[0],
   description: '…',
   mots_cles: ['…', '…', '…'],
-  largeur: 1000,
-  hauteur: 1400,
+  largeur: FORMAT.largeur,
+  hauteur: FORMAT.hauteur,
 }, null, 2));
 console.log(`\nEN FIN DE LOT : npm run semaines:verifier && npm run semaines:relever`);

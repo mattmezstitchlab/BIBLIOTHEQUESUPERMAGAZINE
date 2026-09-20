@@ -20,7 +20,10 @@
     "semaines:etat": "node scripts/lots-semaines.mjs etat",
     "semaines:lot": "node scripts/lots-semaines.mjs semaine",
     "semaines:verifier": "node scripts/verifier-semaines.mjs",
-    "remapper": "node scripts/remapper.mjs"
+    "remapper": "node scripts/remapper.mjs",
+    "declarer:semaine": "node scripts/declarer-semaine.mjs",
+    "noir-et-blanc": "node scripts/noir-et-blanc.mjs",
+    "semaines:relever": "node scripts/lots-semaines.mjs etat"
   },
   "devDependencies": {
     "esbuild": "^0.25.0"

@@ -4,7 +4,7 @@
 > vient de `scripts/semaines.mjs`. Une semaine change là-bas, le plan suit.
 
 **54 magazines** (un par semaine) · **7 chapitres** par magazine · **8 images** par
-semaine · **432 images** en tout. Chaque semaine porte les sept mêmes univers,
+semaine · **432 images** en tout, en **A4 portrait (1240 × 1754)**. Chaque semaine porte les sept mêmes univers,
 traités autrement : c’est la diversité des traitements, pas celle des sujets,
 qui fait la collection.
 

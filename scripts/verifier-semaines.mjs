@@ -30,7 +30,7 @@ import { existsSync, readFileSync, readdirSync, statSync } from 'node:fs';
 import { join } from 'node:path';
 
 import { RACINE } from './bibliotheque.mjs';
-import { CHAPITRES, COUVERTURE, FORMAT, IMAGES_DE_LA_SEMAINE, NOMBRE_DE_SEMAINES, semaineParNumero, saisonDeLaSemaine, cheminSemaine } from './semaines.mjs';
+import { CHAPITRES, COUVERTURE, FORMAT, IMAGES_DE_LA_SEMAINE, NOMBRE_DE_SEMAINES, cadrageJuste, semaineParNumero, saisonDeLaSemaine, cheminSemaine } from './semaines.mjs';
 
 const erreurs = [];
 const avertissements = [];
@@ -103,13 +103,13 @@ for (const img of images) {
     dire(`la dominante « ${img.dominante_color} » n’est pas un #RRGGBB`);
   }
 
-  // le cadrage
+  // le cadrage — A4 portrait, ce n'est pas du 5 / 7
   if (!Number.isInteger(img.largeur) || !Number.isInteger(img.hauteur) || img.largeur <= 0 || img.hauteur <= 0) {
     dire('largeur et hauteur doivent être des entiers positifs');
-  } else if (img.largeur * 7 !== img.hauteur * 5) {
-    dire(`le cadrage : ${img.largeur}×${img.hauteur} n’est pas du 5 / 7`);
+  } else if (!cadrageJuste(img.largeur, img.hauteur)) {
+    dire(`le cadrage : ${img.largeur}×${img.hauteur} n’est pas du ${FORMAT.nom} (${FORMAT.ratio})`);
   } else if (img.largeur !== FORMAT.largeur || img.hauteur !== FORMAT.hauteur) {
-    avertissements.push(`${ou} — ${img.largeur}×${img.hauteur} est bien du 5 / 7, mais le format de la maison est ${FORMAT.largeur}×${FORMAT.hauteur}`);
+    avertissements.push(`${ou} — ${img.largeur}×${img.hauteur} est bien du ${FORMAT.nom}, mais le format de la maison est ${FORMAT.largeur}×${FORMAT.hauteur}`);
   }
 
   // le fichier existe-t-il ?

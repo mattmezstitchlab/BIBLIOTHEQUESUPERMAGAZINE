@@ -4,20 +4,69 @@
     "modele": "54 SEMAINES = 54 MAGAZINES · 7 CHAPITRES = 7 UNIVERS DU MARIAGE · 365 JOURS POUR LES EXPLORER",
     "regle": "Une image sans sa déclaration ne sert à rien : la déclaration fait partie de l'image. Le mariage est le territoire commun — il peut apparaître directement ou indirectement, jamais dans son imagerie conventionnelle.",
     "format": {
-      "ratio": "5:7",
-      "largeur": 1000,
-      "hauteur": 1400
+      "nom": "A4 portrait",
+      "ratio": "1240:1754",
+      "largeur": 1240,
+      "hauteur": 1754,
+      "note": "A4 portrait, le format d’un magazine (21 × 29,7 cm). Ce n’est pas du 5 / 7 — l’ancienne bibliothèque des jours reste au 5 / 7 (1000 × 1400)."
     },
     "chapitres": [
-      { "ordre": 1, "slug": "01-amoureux", "nom": "Les amoureux", "fichier": "01-amoureux.jpg", "univers": "Couple, rencontre, engagement, famille, émotions, relation humaine" },
-      { "ordre": 2, "slug": "02-style", "nom": "Le style", "fichier": "02-style.jpg", "univers": "Robe, costume, beauté, coiffure, bijoux, accessoires, fleurs, mode" },
-      { "ordre": 3, "slug": "03-lieux", "nom": "Les lieux", "fichier": "03-lieux.jpg", "univers": "Châteaux, maisons, hôtels, villes, campagnes, plages, architectures, destinations" },
-      { "ordre": 4, "slug": "04-recevoir", "nom": "L’art de recevoir", "fichier": "04-recevoir.jpg", "univers": "Tables, gastronomie, pâtisserie, fleurs, décoration, objets, art de la table" },
-      { "ordre": 5, "slug": "05-fete", "nom": "La fête", "fichier": "05-fete.jpg", "univers": "Musique, danse, DJ, concerts, lumière, scène, cocktails, fête, nuit" },
-      { "ordre": 6, "slug": "06-monde", "nom": "Le monde", "fichier": "06-monde.jpg", "univers": "Cultures, traditions, voyages, patrimoine, peuples, cérémonies, mariages internationaux" },
-      { "ordre": 7, "slug": "07-souvenirs", "nom": "Les souvenirs", "fichier": "07-souvenirs.jpg", "univers": "Photographie, vidéo, albums, lettres, objets, archives, transmission, mémoire" }
+      {
+        "ordre": 1,
+        "slug": "01-amoureux",
+        "nom": "Les amoureux",
+        "fichier": "01-amoureux.jpg",
+        "univers": "Couple, rencontre, engagement, famille, émotions, relation humaine"
+      },
+      {
+        "ordre": 2,
+        "slug": "02-style",
+        "nom": "Le style",
+        "fichier": "02-style.jpg",
+        "univers": "Robe, costume, beauté, coiffure, bijoux, accessoires, fleurs, mode"
+      },
+      {
+        "ordre": 3,
+        "slug": "03-lieux",
+        "nom": "Les lieux",
+        "fichier": "03-lieux.jpg",
+        "univers": "Châteaux, maisons, hôtels, villes, campagnes, plages, architectures, destinations"
+      },
+      {
+        "ordre": 4,
+        "slug": "04-recevoir",
+        "nom": "L’art de recevoir",
+        "fichier": "04-recevoir.jpg",
+        "univers": "Tables, gastronomie, pâtisserie, fleurs, décoration, objets, art de la table"
+      },
+      {
+        "ordre": 5,
+        "slug": "05-fete",
+        "nom": "La fête",
+        "fichier": "05-fete.jpg",
+        "univers": "Musique, danse, DJ, concerts, lumière, scène, cocktails, fête, nuit"
+      },
+      {
+        "ordre": 6,
+        "slug": "06-monde",
+        "nom": "Le monde",
+        "fichier": "06-monde.jpg",
+        "univers": "Cultures, traditions, voyages, patrimoine, peuples, cérémonies, mariages internationaux"
+      },
+      {
+        "ordre": 7,
+        "slug": "07-souvenirs",
+        "nom": "Les souvenirs",
+        "fichier": "07-souvenirs.jpg",
+        "univers": "Photographie, vidéo, albums, lettres, objets, archives, transmission, mémoire"
+      }
     ],
-    "saisons": ["hiver", "printemps", "ete", "automne"],
+    "saisons": [
+      "hiver",
+      "printemps",
+      "ete",
+      "automne"
+    ],
     "convention": "images/semaine-NN/{cover,01-amoureux,02-style,03-lieux,04-recevoir,05-fete,06-monde,07-souvenirs}.jpg — huit images par semaine, 54 semaines, 432 images. La couverture n'est pas un chapitre : c'est la porte d'entrée du magazine.",
     "mapping": "DATE → SEMAINE → CHAPITRE. Le découpage est proportionnel et régulier : la semaine n couvre les jours ⌊(n−1)×365/54⌋+1 à ⌊n×365/54⌋ de l'année. Le site reste maître du calendrier ; cette règle est écrite pour que la bibliothèque sache à quelle saison appartient une semaine.",
     "declaration": {
@@ -32,9 +81,182 @@
       "dominante_color": "la dominante, en #RRGGBB",
       "description": "une phrase : ce que l'image montre, et pourquoi elle est là",
       "mots_cles": "trois à six mots-clés, pour la recherche",
-      "largeur": "la largeur réelle du fichier",
-      "hauteur": "la hauteur réelle du fichier — le ratio attendu est 5:7"
+      "largeur": "la largeur réelle du fichier (1240)",
+      "hauteur": "la hauteur réelle du fichier (1754) — le ratio attendu est A4 portrait"
+    },
+    "decisions": {
+      "20 septembre 2026": [
+        "Architecture : 54 semaines = 54 magazines, 7 chapitres par magazine. L’ancien modèle (365 jours) est abandonné mais conservé intact en archive.",
+        "Les anciens assets ne sont PAS remappés : images/MM-JJ/ reste en archive, avec ses URLs et son manifeste (option C).",
+        "Le chapitre 01 — Les amoureux montre DEUX personnes : le couple, jamais une silhouette anonyme ni une foule.",
+        "Format de la collection : A4 portrait, 1240 × 1754."
+      ]
     }
   },
-  "images": []
+  "images": [
+    {
+      "semaine": 1,
+      "chapitre": "01-amoureux",
+      "univers": "Les amoureux",
+      "titre": "Noir gelé",
+      "fichier": "images/semaine-01/01-amoureux.jpg",
+      "saison": "hiver",
+      "style": "noir et blanc, documentaire",
+      "sujet": "deux personnes l'une contre l'autre près d'une fenêtre d'hiver",
+      "dominante_color": "#4F4338",
+      "description": "Le couple, visages tenus, laine verte et drap camel contre un manteau bleu nuit : la seule image en couleur d'un numéro entièrement en noir et blanc — c'est le cœur du magazine.",
+      "mots_cles": [
+        "couple",
+        "laine",
+        "fenêtre",
+        "hiver",
+        "couleur"
+      ],
+      "largeur": 1240,
+      "hauteur": 1754
+    },
+    {
+      "semaine": 1,
+      "chapitre": "02-style",
+      "univers": "Le style",
+      "titre": "Noir gelé",
+      "fichier": "images/semaine-01/02-style.jpg",
+      "saison": "hiver",
+      "style": "noir et blanc, documentaire",
+      "sujet": "robe de soie suspendue, prise dans un mouvement de tissu",
+      "dominante_color": "#7B7B7B",
+      "description": "Le vêtement seul fait le sujet : la soie se déploie comme une architecture, et la lumière rasante d'hiver en donne tous les plis.",
+      "mots_cles": [
+        "robe",
+        "soie",
+        "plis",
+        "mouvement",
+        "couture"
+      ],
+      "largeur": 1240,
+      "hauteur": 1754
+    },
+    {
+      "semaine": 1,
+      "chapitre": "03-lieux",
+      "univers": "Les lieux",
+      "titre": "Noir gelé",
+      "fichier": "images/semaine-01/03-lieux.jpg",
+      "saison": "hiver",
+      "style": "noir et blanc, documentaire",
+      "sujet": "architecture brutaliste sous la neige, escalier extérieur",
+      "dominante_color": "#7F7F7F",
+      "description": "Un bloc de béton aux arêtes nettes, la neige arrêtée sur une seule arête, un ciel vide : le lieu montré comme une forme, jamais comme un décor.",
+      "mots_cles": [
+        "brutalisme",
+        "béton",
+        "neige",
+        "escalier"
+      ],
+      "largeur": 1240,
+      "hauteur": 1754
+    },
+    {
+      "semaine": 1,
+      "chapitre": "04-recevoir",
+      "univers": "L’art de recevoir",
+      "titre": "Noir gelé",
+      "fichier": "images/semaine-01/04-recevoir.jpg",
+      "saison": "hiver",
+      "style": "noir et blanc, documentaire",
+      "sujet": "table d'hiver dressée serré : céramique sombre, pain, verre, bougie",
+      "dominante_color": "#313131",
+      "description": "Recevoir se lit dans la matière : le linge froissé, la céramique sombre, et une flamme qui est le point le plus clair de l'image.",
+      "mots_cles": [
+        "table",
+        "céramique",
+        "lin",
+        "flamme"
+      ],
+      "largeur": 1240,
+      "hauteur": 1754
+    },
+    {
+      "semaine": 1,
+      "chapitre": "05-fete",
+      "univers": "La fête",
+      "titre": "Noir gelé",
+      "fichier": "images/semaine-01/05-fete.jpg",
+      "saison": "hiver",
+      "style": "noir et blanc, documentaire",
+      "sujet": "étincelles et fumée dans la nuit, prise en pose lente",
+      "dominante_color": "#383838",
+      "description": "La fête prise par sa lumière seule : des traces graphiques sur du vide noir — pas un visage, pas une foule.",
+      "mots_cles": [
+        "étincelles",
+        "fumée",
+        "nuit",
+        "mouvement"
+      ],
+      "largeur": 1240,
+      "hauteur": 1754
+    },
+    {
+      "semaine": 1,
+      "chapitre": "06-monde",
+      "univers": "Le monde",
+      "titre": "Noir gelé",
+      "fichier": "images/semaine-01/06-monde.jpg",
+      "saison": "hiver",
+      "style": "noir et blanc, documentaire",
+      "sujet": "lanternes de glace sculptées dans la neige, flamme contenue",
+      "dominante_color": "#424242",
+      "description": "Une tradition d'hiver venue du Nord : la matière du froid devient lumière, et le monde entre dans le numéro par une pratique, pas par un folklore.",
+      "mots_cles": [
+        "lanternes",
+        "glace",
+        "neige",
+        "tradition",
+        "nuit"
+      ],
+      "largeur": 1240,
+      "hauteur": 1754
+    },
+    {
+      "semaine": 1,
+      "chapitre": "07-souvenirs",
+      "univers": "Les souvenirs",
+      "titre": "Noir gelé",
+      "fichier": "images/semaine-01/07-souvenirs.jpg",
+      "saison": "hiver",
+      "style": "noir et blanc, documentaire",
+      "sujet": "album ancien ouvert, tirages étalés, bobine de pellicule",
+      "dominante_color": "#626262",
+      "description": "Ce qui reste d'un hiver : des tirages cornés aux visages illisibles, une bobine, des lettres, et une flaque de neige fondue sur le bois.",
+      "mots_cles": [
+        "album",
+        "tirages",
+        "pellicule",
+        "mémoire"
+      ],
+      "largeur": 1240,
+      "hauteur": 1754
+    },
+    {
+      "semaine": 1,
+      "chapitre": "cover",
+      "univers": "la couverture",
+      "titre": "Noir gelé",
+      "fichier": "images/semaine-01/cover.jpg",
+      "saison": "hiver",
+      "style": "noir et blanc, documentaire",
+      "sujet": "givre sur une vitre, macro en noir et blanc, blancs purs et noirs profonds",
+      "dominante_color": "#4D4D4D",
+      "description": "La couverture ne montre pas de mariage : elle montre ce que janvier fait au verre — des cristaux de givre durs, une lumière rasante, et une large zone noire pour tenir le titre.",
+      "mots_cles": [
+        "givre",
+        "vitre",
+        "macro",
+        "contraste",
+        "hiver"
+      ],
+      "largeur": 1240,
+      "hauteur": 1754
+    }
+  ]
 }

@@ -63,15 +63,18 @@ Une semaine change là-bas, le plan suit.
 
 | | |
 | --- | --- |
-| **Structure** | 54 dossiers `semaine-NN/` créés, prêts à recevoir leurs 8 images |
-| **Manifeste** | `manifeste-semaines.json` — le schéma des 13 champs est en place, 0 déclaration |
-| **Images livrées** | **0 / 432** |
-| **Décisions en attente** | le remappage des anciens assets (voir le rapport) |
+| **Structure** | 54 dossiers `semaine-NN/` — la semaine 01 est livrée |
+| **Manifeste** | `manifeste-semaines.json` — 13 champs par image, **8 déclarations** |
+| **Images livrées** | **8 / 432** — la semaine 01 « Noir gelé », complète |
+| **Décision prise** | **archive pure** : l'ancienne bibliothèque reste en place, rien n'est remappé |
 
 ```
-npm run semaines:etat          où en est la bibliothèque, quel est le prochain lot
-npm run semaines:lot 7         ce que demande la semaine 07, les huit fichiers
-npm run semaines:verifier      le manifeste tient-il ? (sortie 0/1)
+npm run semaines:etat           où en est la bibliothèque, quel est le prochain lot
+npm run semaines:lot 7          ce que demande la semaine 07, ses huit fichiers
+npm run semaines:verifier       le manifeste tient-il ? (sortie 0/1)
+npm run declarer:semaine …      déclarer une image livrée
+npm run noir-et-blanc …         mettre des images en noir et blanc, quand le fil l'exige
+npm run normaliser semaine-01   mettre un dossier au format A4, sans le déformer
 ```
 
 ### La bibliothèque des jours (l'ancien modèle — intacte, en réserve)
@@ -168,7 +171,8 @@ src/lib/                 les modules de données, mot pour mot ceux du site
 | `cover.jpg`, `01-amoureux.jpg`, `02-style.jpg`, `03-lieux.jpg`, `04-recevoir.jpg`, `05-fete.jpg`, `06-monde.jpg`, `07-souvenirs.jpg` — noms exacts | les noms sont fixés dans `scripts/semaines.mjs`, une seule source |
 | `manifeste-semaines.json` — semaine, chapitre, titre, univers, saison, style, sujet, dominante_color, description, mots_cles | le schéma est en place, vérifié par `npm run semaines:verifier` |
 | le mapping `DATE → SEMAINE → CHAPITRE` | la règle est écrite : `semaineDuJour()` dans `scripts/semaines.mjs` |
-| 5 / 7 portrait, 1000 × 1400 | le format imposé par la vérification |
+| A4 portrait, 1240 × 1754 | le format de la collection — le normaliseur recadre, jamais il n'étire |
+| le chapitre « Les amoureux » montre **deux personnes** | la règle est dans `scripts/semaines.mjs` (`REGLES_DE_CHAPITRE`) et rappelée par `npm run semaines:lot` |
 | les liens bruts / GitHub Pages | le dépôt servi tel quel |
 
 ### L'ancien modèle — les jours (toujours servi)
@@ -208,6 +212,11 @@ n'a pas d'image** — c'est la queue de la veille, une règle, pas un manque.
    jamais une icône — pas d'auréole, pas de vitrail, pas de cierge.
 7. **Le même personnage cinq fois** : même visage, même silhouette, même
    garde-robe — seule la lumière change. L'aube est la référence.
+8. **Une semaine, une personnalité** : les sept chapitres d'un magazine se
+   répondent — même palette, même lumière, même saison, même territoire ;
+   mais les 54 semaines ne se ressemblent pas. Quand le fil d'une semaine
+   l'exige (« tout en noir et blanc, sauf une image »), le fil est **appliqué**,
+   pas souhaité : `npm run noir-et-blanc` le rend vrai.
 
 ## Les outils — la bibliothèque des semaines
 

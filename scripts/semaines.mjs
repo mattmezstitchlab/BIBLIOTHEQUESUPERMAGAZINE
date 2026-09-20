@@ -125,6 +125,17 @@ export const COUVERTURE = 'cover';
 /** Les huit fichiers d'une semaine, dans l'ordre de production. */
 export const IMAGES_DE_LA_SEMAINE = [COUVERTURE, ...CHAPITRES.map((c) => c.slug)];
 
+/**
+ * **Ce qui a été décidé le 20 septembre 2026**, et qui vaut pour toute la
+ * collection : le chapitre « Les amoureux » montre **deux personnes**. Une
+ * personne seule dit l'émotion, mais pas le couple — et le chapitre est
+ * « les amoureux », pas « le portrait ». Les deux visages sont tenus, jamais
+ * des silhouettes anonymes ni une foule.
+ */
+export const REGLES_DE_CHAPITRE = {
+  '01-amoureux': 'deux personnes dans le cadre — le couple, jamais une silhouette anonyme ni une foule',
+};
+
 /** Le chapitre par son slug. */
 export function chapitreParSlug(slug) {
   return CHAPITRES.find((c) => c.slug === slug) ?? null;
@@ -132,8 +143,28 @@ export function chapitreParSlug(slug) {
 
 /* ————————————————————————————— LE FORMAT ————————————————————————————— */
 
-/** Le format de la maison : le même que la bibliothèque des jours. */
-export const FORMAT = { ratio: '5:7', largeur: 1000, hauteur: 1400 };
+/**
+ * Le format de la maison, décidé le 20 septembre 2026 : **A4 portrait,
+ * 1240 × 1754** — le format d'un vrai magazine (21 × 29,7 cm).
+ *
+ * Attention : **ce n'est pas du 5 / 7** (1240 × 7 = 8 680, 1754 × 5 = 8 770).
+ * L'ancienne bibliothèque des jours, elle, reste au 5 / 7 — deux formats, deux
+ * modèles, et les vérificateurs savent lequel s'applique où.
+ */
+export const FORMAT = {
+  nom: 'A4 portrait',
+  ratio: '1240:1754',
+  largeur: 1240,
+  hauteur: 1754,
+  /** La tolérance de ratio acceptée avant de refuser une image (0,5 %). */
+  tolerance: 0.005,
+};
+
+/** Le ratio attendu pour une image donnée, et s'il est juste à la tolérance près. */
+export function cadrageJuste(largeur, hauteur) {
+  if (!Number.isInteger(largeur) || !Number.isInteger(hauteur) || largeur <= 0 || hauteur <= 0) return false;
+  return Math.abs(hauteur / largeur - FORMAT.hauteur / FORMAT.largeur) <= FORMAT.tolerance;
+}
 
 /* ————————————————————————— LE PLAN DES 54 SEMAINES ————————————————————————— */
 
@@ -226,3 +257,20 @@ export const SAISONS = ['hiver', 'printemps', 'ete', 'automne'];
 
 /** Les saisons écrites en français. */
 export const SAISON_EN_FRANCAIS = { hiver: 'hiver', printemps: 'printemps', ete: 'été', automne: 'automne' };
+
+/**
+ * Lire un nom de fichier de semaine.
+ *
+ * Les noms admis sont les huit du magazine, éventuellement suivis d'un rang
+ * (`cover-2.jpg`, `03-lieux-2.jpg`) — même convention que l'ancienne
+ * bibliothèque, où deux prises d'un même plan pouvaient coexister.
+ *
+ *   analyserNomDeSemaine('03-lieux.jpg')    → { slot: '03-lieux', rang: 1 }
+ *   analyserNomDeSemaine('cover-2.jpg')     → { slot: 'cover', rang: 2 }
+ *   analyserNomDeSemaine('aube.jpg')        → null
+ */
+export function analyserNomDeSemaine(nom) {
+  const m = /^([a-z0-9-]+?)(?:-([23]))?\.jpe?g$/i.exec(nom);
+  if (!m || !IMAGES_DE_LA_SEMAINE.includes(m[1])) return null;
+  return { slot: m[1], rang: m[2] ? Number(m[2]) : 1 };
+}

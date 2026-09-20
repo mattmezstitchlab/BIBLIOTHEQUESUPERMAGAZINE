@@ -1,0 +1,28 @@
+{
+  "meta": {
+    "magazine": "AIME MAGAZINE — la bibliothèque des visuels",
+    "regle": "Ce qui est documenté est cité ; ce qui est imaginé est signé. Une image sans ses cinq champs ne sert à rien : la déclaration fait partie de l'image.",
+    "format": {
+      "ratio": "5:7",
+      "largeur": 1000,
+      "hauteur": 1400
+    },
+    "moments": [
+      "couverture",
+      "aube",
+      "matin",
+      "midi",
+      "apres-midi",
+      "soir"
+    ],
+    "convention": "images/MM-JJ/slot.jpg — le premier rang est celui qu'on veut ; -2 et -3 sont des candidates du casting (trois rangs au plus par plan). La nuit n'a pas d'image : c'est la queue de la veille.",
+    "criteres": {
+      "le moment": 3,
+      "la lumière": 2,
+      "la couleur": 2,
+      "le cadrage": 1,
+      "le sujet": 1
+    }
+  },
+  "images": []
+}
